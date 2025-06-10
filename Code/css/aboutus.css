@@ -1,0 +1,505 @@
+
+
+/* Global styles */
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* Heading styles */
+.heading{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+/* Image container styles */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:58%;
+    margin-left:20%;
+    
+}
+
+/* Image styles */
+.image {
+    width: 100px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    background: rgb(86, 79, 79);
+    margin: 2px 20px;
+    border-radius: 10px; /* Use a smaller border-radius for rounded corners */
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, .4), 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.image:hover {
+    transform: scale(1.1);
+    transition: all .4s;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+/* Image inside container styles */
+.image .img {
+    width: auto; 
+    height:100%; 
+    border-radius: 10px; 
+}
+
+
+/* Info container styles */
+.info-container{
+    width: 1100px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px rgb(145, 1,1);
+}
+
+/* Profile styles */
+.profile{
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Name styles */
+.name{
+    margin-top: 20%;
+    height: 100px;
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+/* Status styles */
+.status{
+    padding: 0px 20px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+}
+
+/* About section styles */
+.about{
+    height: 240px;
+    padding: 0px 20px;
+}
+
+/* Form Section styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container h1 {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height:700px;
+  border: 1px solid #060404;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  flex-basis: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #060000;
+  border-radius: 5px;
+}
+
+.form-container input[type="date"] {
+  padding: 5px;
+  border: 1px solid #0a0000;
+  border-radius: 5px;
+}
+
+.form-container button {
+  flex-basis: 50%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.form-container button:nth-child(2) {
+  background-color: #f44336;
+  margin-left: 10px;
+}
+
+.form-container button:nth-child(2):hover {
+  background-color: #da190b;
+}
+
+/* Facebook styles */
+.fb{
+  text-align: center;
+}
+
+/* Input name styles */
+.inputname{
+  justify-content: center;
+}
+
+/* Title head styles */
+.titlehead{
+  text-align: center;
+}
+
+/* Styling for navigation items */
+.log{
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 8%;
+  color:rgb(0, 0, 0);
+}
+.logo{
+  margin-top: -5%;
+  margin-left: 3%;
+  position: absolute;
+}
+
+.search {
+  position: absolute;
+  margin-left: 74%;
+  margin-top: -4.5%;
+
+
+
+}
+
+.frm1 {
+  height: 10vh;
+}
+
+.srch {
+
+
+  margin-left: -14%;
+  background: #292828;
+  margin-top: 3%;
+  width: 250px;
+  color: #f9fcff;
+  font-size: 18px;
+  font-family: Arial;
+  padding: 3.2%;
+  border-color: #000000;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.button {
+  position: absolute;
+  margin-left: -1.5%;
+  margin-top: 3%;
+  background: #419172;
+  padding: 0.2%;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+
+
+#btn1 {
+  /* Set button dimensions */
+  padding: 3px;
+  width: 90%;
+
+}
+.user-img{
+  background-color: #dfdfdf;
+  border-radius: 15px;
+  margin-top: -3.5%;
+  margin-left: 96%;
+  position: absolute;
+}
+.user-img:hover {
+  background: #b1b1b1;
+  border-radius: 15px;
+
+}
+
+.user-img:active {
+  background-color: #7f7f7f;
+}
+
+
+
+
+.navitems {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: -4%;
+  justify-content: center;
+}
+
+
+#navbar {
+  width: 100%;
+  height: 10%;
+  background-color: #64aa8e36; 
+  margin-top: 0%;
+  box-shadow: 0px 10px 10px -10px #000000;
+  position: fixed;
+  backdrop-filter: brightness(40%) opacity(0.8);
+  z-index: 999;
+
+}
+
+.bar.active {
+  border-radius: 7px;
+}
+
+.bar.active:focus {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.bar {
+text-decoration: solid; /* Underline style */
+margin: 25px; /* Spacing around the bar */
+margin-bottom: 10px; /* Spacing at the bottom */
+color: rgb(255, 255, 255); /* Set text color */
+padding: 8px; /* Add padding inside the bar */
+font-size: 18px; /* Set font size */
+font-weight: 600; /* Set font weight */
+font-family: Verdana, Geneva, Tahoma, sans-serif; /* Set font family */
+}
+
+
+.bar:hover {
+
+  color: #e7e6e4;
+  font-weight: 900px;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 7px;
+  background: rgb(12, 12, 12);
+  padding: 8px;
+  transition: 0.2s;
+}
+
+/* While clicking */
+.bar:active {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+}
+
+.bar:focus {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* ---Heading & nav-bar end--- */
+
+
+/* Footer Styles */
+footer {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 30px 0; /* Add padding */
+  margin-top: 100px; /* Set top margin */
+}
+
+/* Styling for footer content */
+.foot {
+  display: flex; /* Use flexbox */
+  justify-content: space-around; /* Space around items */
+  flex-wrap: wrap; /* Wrap items */
+  max-width: 1200px; /* Set max width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Styling for footer widget */
+.footer-widget {
+  flex: 300px; /* Set flex basis */
+  margin-bottom: 30px; /* Add bottom margin */
+  text-align: justify; /* Justify text */
+}
+
+/* Styling for about widget paragraph */
+.about-widget p {
+  text-align: justify; /* Justify text */
+  margin-bottom: 10%;
+
+}
+
+/* Styling for footer widget title */
+.footer-widget h2 {
+  font-size: 1.5rem; /* Set font size */
+  margin-bottom: 15px; /* Add bottom margin */
+}
+
+/* Styling for footer widget list */
+.footer-widget ul {
+  padding: 0; /* Reset padding */
+}
+
+/* Styling for footer widget list items */
+.footer-widget ul li {
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Styling for footer widget list item links */
+.footer-widget ul li a {
+  color: #fff; /* Set text color */
+  text-decoration: none; /* Remove underline */
+  margin-left: -1%; /* Adjust left margin */
+}
+
+/* Styling for widget title */
+.widget-title {
+  margin-left: -10%; /* Adjust left margin */
+  color:white;
+  
+}
+
+/* Styling for contact address, number, and email */
+.contact-address,
+.contact-number,
+.contact-email {
+  margin-bottom: 10px; /* Add bottom margin */
+  margin-left: -6%; /* Adjust left margin */
+}
+
+/* Styling for social widget title */
+.social-title {
+  margin-left: 165%; /* Adjust left margin */
+  margin-top: -125%; /* Adjust top margin */
+  color:white;
+}
+
+/* Styling for social widget */
+.social-widget {
+  margin-top: 20%; /* Set top margin */
+  margin-left: 40%; /* Set left margin */
+}
+
+/* Styling for social links */
+.social {
+  margin-left: 180%; /* Adjust left margin */
+  margin-top: 10%; /* Set top margin */
+}
+
+/* Styling for copyright */
+.copyright {
+  background-color: #000000; /* Background color */
+  padding: 30px; /* Add padding */
+  
+}
+
+/* Styling for copyright paragraph */
+.copyright p {
+
+  text-align: center;
+}
+
+
+
+body {
+  background-color:  #bccec03f;
+
+}
+
+
+.about-us-class {
+  padding: 120px 0px;
+  margin-bottom: 1%;
+  margin-top:-4%;
+  height:530px;
+  background-color: rgb(187, 213, 187);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.aboutcontainer{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.aboutrow{
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutflex{
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 20px;
+}
+.about-us-class h2{
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #333;
+
+}
+.about-us-class h3{ 
+  font-size: 22px;
+  color: #888;
+  margin-bottom: 8px;
+}
+.about-us-class p{
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+.about-us-class img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.aboutlogoimage{
+  margin-left: 40%;
+  width: 55%; 
+  margin-top: -25%;
+}
+
+
+.aboutbtn:hover{
+  transform: translate(-3px);
+}

@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GrocerEAse</title>
+
+  <link rel="stylesheet" href="/Code/css/main.css">
+
+
+  <style>
+    /* .row-1
+  {
+      padding-left: 50%;
+      margin-top: 10%;
+      font-family:monospace;
+      font-size: 30px;
+      
+  } */
+  </style>
+</head>
+
+
+<body>
+  <!-- heading & nav-bar start -->
+  <header>
+    <div id="navbar">
+      <nav class="navitems">
+
+        <a href="/Code/html/index.html" class="bar active">Home</a>
+        <a href="/Code/html/allProducts.html" class="bar">Products</a>
+        <a href="/Code/html/blog.html" class="bar">Blog</a>
+        <a href="#" class="bar">Research</a>
+        <a href="/Code/html/Aboutus.html" class="bar">About us</a>
+      </nav>
+      <h2 class="log">Grocer <span style="color: #588552;">Ease</span></h2>
+      <img class="logo" src="/icons/logo (1).png" width="5%" alt=" GroceryEaseLogo">
+      <div class="search">
+        <form action="" class="frm1">
+          <input type="search" class="srch" placeholder="Search GrocerEase "></input>
+
+          <button class="button"><img id="btn1" src="/icons/search.png" alt=""></button>
+        </form>
+
+      </div>
+      <a href="/Code/html/login.html"><img class="user-img" src="/icons/user.png" alt=""></a>
+
+    </div>
+  </header>
+  <!-- Heading & nav-bar end -->
+
+  <div class="veg-banner">
+    <img src="/image/Fruits/fruit banner.png" style="height:800px;width:1550px;margin-top:0;">
+  </div>
+  <marquee class="scrolling-text" loop="-1" scrollamount="20" width="100%">
+    Receive &nbsp; a&nbsp; flat &nbsp;cashback&nbsp; of &nbsp;Rs. 100 &nbsp;on&nbsp; your&nbsp; first&nbsp;
+    purchase&nbsp; of&nbsp; Rs. 1500&nbsp; or&nbsp; more.
+  </marquee>
+
+
+  <div class="content">
+    <a href="#"> <img class="fixed-cart" src="/icons/cart.svg"
+        style="width:50px; height:50px;margin-top:35%; position: fixed;"></a>
+
+
+
+    <table class="table-1">
+
+      <div style="margin-top:30px;padding-left: 20%;top: 50px;font-size: 50px;"> Seasonal</div>
+
+      <tr style="top:-70px; position: relative;">
+
+        <th>
+          <div class="product">
+
+            <!--for box1-->
+            <div class="Box">
+              <div class="ribbon-wrap">
+                <div class="ribbon"
+                  style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">Top
+                  Selling--</div>
+              </div>
+              <div class="image">
+                <img src="/image/Fruits/Avacados.png" alt="Avacados" style="height: 220px;width:auto;">
+              </div>
+              <div class="content-container-before">
+                <div class="transition">
+                  <div class="stars">&#8902;&#8902;&#x2605;&#8902;&#8902;
+                  </div>
+                  <h3 class="Product-Name">Avacados</h3>
+                  <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 450</span> <sub style="font-size: 12px;">per
+                      kg</sub> </p>
+                </div>
+                <div class="inner-content-container">
+                  <p class="First-Purchase">Only For today :
+                    <span class="first-purchase-discount">-3%</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+                      "Avocados: Creamy, nutritious fruit packed with healthy fats, perfect for salads, spreads, or
+                      simply enjoyed on their own."
+                    </p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--box1 code ends-->
+
+
+            <!-- popup details for Box-1 -->
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:20px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/Avacados.png" alt="Avacados" style="width:auto; height:250px;">
+                </div>
+                <div class="info">
+                  <h2>Avacados<br><span>
+
+
+
+                      "Creamy, Nutritious, Versatile."</span></h2>
+                  <p>
+
+
+
+                    "Avocados: Creamy, versatile fruits rich in healthy fats, vitamins, and minerals. Whether sliced on
+                    toast, mashed into guacamole, or added to salads, avocados offer a deliciously satisfying taste and
+                    a nutritious boost to any meal. Elevate your dishes with the buttery texture and distinctive flavor
+                    of these beloved fruits."
+                  </p>
+                  <span class="price">RS 450 <sub>per kg</sub></span>
+                  <label><input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- popup details for Box-1 ends -->
+
+          </div>
+
+        </th>
+
+
+
+
+        <th>
+          <div class="product">
+
+            <div class="Box">
+              <div class="ribbon-wrap">
+                <div class="ribbon"
+                  style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">
+                  Top
+                  Selling--</div>
+              </div>
+              <div class="image">
+                <img src="/image/Fruits/Grapes.png" alt="Grapes" style="height: 190px; width:auto">
+              </div>
+              <div class="content-container-before">
+                <div class="transition">
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                  <h3 class="Product-Name">Grapes</h3>
+                  <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 250</span> <sub style="font-size: 12px;">per
+                      kg</sub> </p>
+                </div>
+                <div class="inner-content-container">
+                  <p class="First-Purchase">Only For today :
+                    <span class="first-purchase-discount">-3%</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+
+                      "Grapes: Sweet, juicy fruits, perfect for snacking, adding to salads, or freezing for a refreshing
+                      treat on hot days."
+
+
+
+
+                    </p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/Grapes.png" alt="Grapes">
+                </div>
+                <div class="info">
+                  <h2>Grapes<br><span>
+
+
+
+                      "Sweet, Juicy, Refreshing."</span></h2>
+                  <p>
+
+
+
+                    "Grapes: Nature's juicy jewels bursting with sweetness. Whether enjoyed fresh as a snack, tossed
+                    into salads for a fruity twist, or frozen for a refreshing treat, grapes offer a delightful burst of
+                    flavor with every bite. With their versatility and natural sweetness, grapes are a favorite among
+                    both kids and adults alike."
+                  </p>
+                  <span class="price">Rs. 250 <sub>per kg</sub></span>
+                  <label><input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+
+        <th>
+          <div class="product">
+
+            <div class="Box">
+              <div class="ribbon-wrap">
+                <div class="ribbon"
+                  style="background-image: linear-gradient(45deg, #4CAF50 0%, #8BC34A 51%, #CDDC39 100%);">New--</div>
+              </div>
+              <div class="image">
+                <img src="/image/Fruits/kiwi.png" alt="Kiwi">
+              </div>
+              <div class="content-container-before">
+                <div class="transition">
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                  <h3 class="Product-Name">Kiwi</h3>
+                  <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 300</span> <sub style="font-size: 12px;">per
+                      kg</sub> </p>
+                </div>
+                <div class="inner-content-container">
+                  <p class="First-Purchase">Buy 2kg & get 1 for
+                    <span class="first-purchase-discount">FREE</span>
+                  </p>
+                  <div class="Description">
+
+                    <p>
+
+
+                      "Tangy, tropical kiwi: Vibrant green fruit with a refreshing flavor, ideal for snacking,
+                      smoothies, or fruit salads."
+
+                    </p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/kiwi.png" alt="Kiwi" style="height: 220px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Kiwi</h2><br><span>
+
+
+
+                    "Tangy Tropical Fruit."</span></h2>
+                  <p>
+
+
+                    "Kiwi: A tropical delight, known for its vibrant green flesh and tangy-sweet flavor. Rich in vitamin
+                    C, fiber, and antioxidants, kiwi offers a refreshing burst of taste and nutrition. Enjoy it sliced
+                    and added to fruit salads, blended into smoothies, or simply eaten on its own for a refreshing
+                    snack. Embrace the exotic taste of kiwi for a healthy and delicious treat."
+
+
+
+
+
+
+                  </p>
+                  <span class="price">Rs. 300 <sub>per kg</sub></span>
+                  <label><input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+        <th>
+          <div class="product">
+
+            <div class="Box">
+
+              <div class="image">
+                <img src="/image/Fruits/Apple.png" alt="Apple" style="height:300px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Apple </h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 310</span> <sub style="font-size: 12px;">per
+                    kg</sub> </p>
+
+                <div class="inner-content-container">
+                  <p class="First-Purchase">First Purchase:
+                    <span class="first-purchase-discount">-5%</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+                      "Crunchy, Juicy Apples: Refreshing fruits perfect for snacking, salads, or baking into pies,
+                      offering a delightful burst of sweetness."</p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits//Apple.png" alt="GoodDay" style="height:350px;width: auto ;">
+                </div>
+                <div class="info">
+                  <h2>Apple<br><span>
+
+
+
+                      "Crunchy, Juicy, Sweet."</span></h2>
+                  <p>
+
+
+
+
+                    "Apples: Crunchy, juicy fruits bursting with natural sweetness and a refreshing crisp texture.
+                    Versatile in use, they're perfect for snacking, baking into pies, or slicing into salads. Packed
+                    with fiber and essential nutrients, apples are a deliciously healthy addition to any diet, enjoyed
+                    by both kids and adults alike."
+                  </p>
+
+                  <span class="price">Rs. 310<sub>per Kg</sub></span>
+
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </tr>
+    </table>
+
+
+    <table class="table-2" style="margin-top: 10px; margin-bottom: 120px;">
+      <tr>
+        <th>
+          <div class="product">
+
+            <div class="Box">
+
+              <div class="image">
+                <img src="/image/Fruits/Mango.png" alt="Mango" style="height:220px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="stars">&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Mango</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 120</span> <sub style="font-size: 12px;">
+                    per kg
+                  </sub> </p>
+
+                <div class="inner-content-container">
+                  <p class="First-Purchase">no offer available
+                    <span class="first-purchase-discount"></span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+
+
+                      "Juicy, tropical mango: Sweet, aromatic fruit perfect for snacking, smoothies, or adding a burst
+                      of flavor to salads."
+
+
+
+
+
+                    </p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/Mango.png" alt="Mango" style="height: 220px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Mango<br><span>"
+
+
+                      "Sweet, Juicy Mango."</span></h2>
+                  <p>
+
+                    "Mango: The tropical delight, revered for its luscious sweetness and succulent juiciness. Whether
+                    savored fresh as a snack, blended into refreshing smoothies, or diced into vibrant salads, mangoes
+                    offer a taste of paradise with every bite. Rich in vitamins and antioxidants, they're not just
+                    delicious but also a nutritious addition to your diet, capturing the essence of summer in every
+                    mouthful."
+
+
+
+
+
+
+
+
+
+
+                  </p>
+                  <span class="price">Rs. 120<sub>per kg</sub></span>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+
+        <th>
+          <div class="product">
+
+            <div class="Box">
+              <div class="ribbon-wrap">
+                <div class="ribbon"
+                  style="background-image: linear-gradient(45deg, #fd0000 0%, #f71919 50%, #e3480f 100%);">Out Of
+                  Stock-- -</div>
+              </div>
+              <div class="image">
+                <img src="/image/Fruits/orange.png" alt="Orange" style="height: 200px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="stars">&#9733;&#9733;</div>
+                <h3 class="Product-Name">Orange</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)"><s>RS. 130</s></span> <sub
+                    style="font-size: 12px;">per kg</sub> </p>
+
+                <div class="inner-content-container">
+                  <p class="First-Purchase">Available
+                    <span class="first-purchase-discount">SOON</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+
+
+                      "Juicy, citrusy oranges: Refreshing fruits bursting with vitamin C, perfect for snacking, juicing,
+                      or adding zesty flavor to dishes."
+                    </p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/orange.png" alt="Orange" style="height: 220px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Orange<br><span>
+
+
+
+                      "Juicy Citrus Fruit."</span></h2>
+                  <p>
+
+
+                    "Oranges: Nature's vibrant citrus gems, prized for their juicy sweetness and refreshing tang. Packed
+                    with immune-boosting vitamin C and antioxidants, oranges are not just delicious but also nourishing.
+                    Whether enjoyed fresh as a snack, squeezed into refreshing juice, or incorporated into salads and
+                    desserts, oranges brighten up any dish with their sunny flavor and vibrant color."
+                  </p>
+                  <span class="price">Rs. 130 <sub>per packet</sub></span>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="#" class="add-cart-btn"
+                      style=" color: white; text-decoration: none; margin: 10px auto;
+                      padding: 10px 50px; border-radius: 5px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);border-radius: 20px;"
+                      onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='green';">
+                      Buy Now
+                    </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+
+        <th>
+          <div class="product">
+
+            <div class="Box">
+
+              <div class="image">
+                <img src="/image/Fruits/peach.png" alt="Thums Up" style="height: 130px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="transition">
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                  <h3 class="Product-Name">Peach</h3>
+                  <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 150 </span> <sub
+                      style="font-size: 12px;">per
+                      Kg</sub> </p>
+                </div>
+                <div class="inner-content-container">
+                  <p class="First-Purchase">First Purchase
+                    <span class="first-purchase-discount">-5%</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+                      "Sweet, juicy peaches: Succulent fruits with a delicate aroma, perfect for snacking, desserts, or
+                      adding a touch of sweetness to salads."</p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/peach.png" alt="peach" style="height: 220px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Peach<br><span>
+
+
+                      "Sweet, Juicy Fruit"</span></h2>
+                  <p>
+
+
+
+                    "Peaches: Juicy, fragrant fruits celebrated for their sweet flavor and velvety texture. Whether
+                    enjoyed fresh as a snack, grilled to perfection, or baked into pies and cobblers, peaches offer a
+                    taste of summer in every bite. Rich in vitamins and minerals, they're not just delicious but also a
+                    healthy addition to your diet, making them a favorite among fruit lovers."</p>
+                  <span class="price">RS 150 <sub>kg</sub></span>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+        <th>
+          <div class="product">
+
+            <div class="Box">
+
+              <div class="image">
+                <img src="/image/Fruits/strawberry.png" alt="Wafers" style="height: 220px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Strawberry</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 200</span> <sub style="font-size: 12px;">per
+                    kg</sub> </p>
+
+                <div class="inner-content-container">
+                  <p class="First-Purchase">First purchase :
+                    <span class="first-purchase-discount">-5%</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+                      "Sweet, juicy strawberries: Vibrant red berries bursting with flavor, perfect for snacking,
+                      desserts, or adding to salads for a pop of color."</p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/strawberry.png" alt="Strawberries" style="height: 220px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Strawberry<br><span>
+
+
+                      "Sweet, Juicy Berries."</span></h2>
+                  <p>
+
+                    "Strawberries: Nature's vibrant jewels, known for their sweet juiciness and vibrant red hue. Whether
+                    enjoyed fresh as a snack, blended into smoothies, or topping off desserts, strawberries offer a
+                    burst of flavor and a dose of vitamin C. Versatile and delicious, they're a favorite addition to any
+                    meal, adding both sweetness and color to your plate."</p>
+                  <span class="price">Rs. 200 <sub>per kg</sub></span>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </table>
+
+    <table class="table-3">
+      <div style="margin-top:0px;padding-left: 20%;top: 0px;font-size: 50px;"> Off-Seasonal</div>
+      <tr style="top:-70px; position: relative;">
+        <th>
+          <div class="product">
+
+            <div class="Box">
+
+              <div class="image">
+                <img src="/image/Fruits/Banana.png" alt="Banana" style="height: 220px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="stars">&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Banana</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 120</span> <sub style="font-size: 12px;">per
+                    dozens</sub> </p>
+
+                <div class="inner-content-container">
+                  <p class="First-Purchase">no offer available
+                    <span class="first-purchase-discount"></span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+
+                      "Sweet, creamy bananas: Versatile fruits perfect for snacking, smoothies, or adding natural
+                      sweetness to baked goods and breakfast dishes."</p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/Banana.png" alt="Banana" style="height: 220px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Banana <br><span>
+
+
+
+
+                      "Creamy, Sweet Fruit."</span></h2>
+                  <p>
+
+
+
+
+                    "Bananas: Creamy and sweet, these versatile fruits are beloved for their convenience and nutrition.
+                    Whether eaten as a quick snack, blended into smoothies, or sliced over cereal, bananas provide a
+                    satisfying dose of potassium and energy-boosting carbohydrates. With their natural sweetness and
+                    creamy texture, they're a timeless favorite for all ages."</p>
+                  <span class="price">Rs. 120<sub>per dozens</sub></span>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+
+        <th>
+          <div class="product">
+
+            <div class="Box">
+              <div class="ribbon-wrap">
+                <div class="ribbon"
+                  style="background-image: linear-gradient(45deg, #fd0000 0%, #f71919 50%, #e3480f 100%);">Out Of
+                  Stock-- -</div>
+              </div>
+              <div class="image">
+                <img src="/image/Fruits/Mulberry.png" alt="Mulberry" style="height: 180px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="stars">&#9733;&#9733;</div>
+                <h3 class="Product-Name">Mulberry</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)"> Rs. 130</span>
+                  <sub style="font-size: 12px;">per kg</sub>
+                </p>
+
+                <div class="inner-content-container">
+                  <p class="First-Purchase">Available
+                    <span class="first-purchase-discount">SOON</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+
+
+
+                      "Sweet, juicy mulberries: Small, dark berries bursting with flavor, perfect for snacking, baking,
+                      or adding to desserts and smoothies."
+                    </p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/Mulberry.png" alt="Mulberries" style="height: 220px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Mulberries<br><span>
+
+
+
+
+                      "Juicy, Sweet Berries."</span></h2>
+                  <p>
+
+
+
+
+                    "Mulberries: Tiny, dark gems packed with sweet flavor and juicy goodness. Whether enjoyed fresh off
+                    the tree, baked into pies, or blended into smoothies, mulberries offer a delightful burst of
+                    sweetness and a boost of antioxidants. Versatile and nutritious, they're a delightful addition to
+                    any dish, adding both flavor and health benefits."
+                  </p>
+                  <span class="price">Rs. 130<sub>per kg</sub></span>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="#" class="add-cart-btn"
+                      style=" color: white; text-decoration: none; margin: 10px auto;
+                      padding: 10px 50px; border-radius: 5px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);border-radius: 20px;"
+                      onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='green';">
+                      Buy Now
+                    </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+
+        <th>
+          <div class="product">
+
+            <div class="Box">
+
+              <div class="image">
+                <img src="/image/Fruits/pineapple.png" alt="Pineapple" style="height: 250px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="transition">
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                  <h3 class="Product-Name">Pineapple</h3>
+                  <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 225 </span> <sub
+                      style="font-size: 12px;">per
+                      kg
+                    </sub> </p>
+                </div>
+                <div class="inner-content-container">
+                  <p class="First-Purchase">First Purchase
+                    <span class="first-purchase-discount">-5%</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+
+                      "Juicy, tropical pineapple: Sweet, tangy fruit perfect for snacking, grilling, or adding a
+                      tropical twist to recipes and desserts."</p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/pineapple.png" alt="pineapple" style="height: 220px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Pineapple<br><span>
+
+
+                      "Sweet, Tropical Fruit." </span></h2>
+                  <p>
+
+
+                    "Pineapple: Juicy, tropical fruit known for its sweet flavor and refreshing taste. Whether enjoyed
+                    fresh, grilled, or blended into smoothies, pineapples offer a burst of tropical goodness in every
+                    bite. Rich in vitamins and enzymes, they're not just delicious but also provide numerous health
+                    benefits, making them a favorite among fruit lovers."</p>
+                  <span class="price">RS 225<sub>(per kg)</sub></span>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+
+        <th>
+          <div class="product">
+
+            <div class="Box">
+
+              <div class="image">
+                <img src="/image/Fruits/Litchi.png" alt="Litchi" style="height: 250px;width: auto ;">
+              </div>
+              <div class="content-container-before">
+                <div class="transition">
+                  <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                  <h3 class="Product-Name">Litchi</h3>
+                  <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 180 </span> <sub
+                      style="font-size: 12px;">per
+                      kg
+                    </sub> </p>
+                </div>
+                <div class="inner-content-container">
+                  <p class="First-Purchase">First Purchase
+                    <span class="first-purchase-discount">-5%</span>
+                  </p>
+                  <div class="Description">
+                    <p>
+
+
+
+
+                      "Sweet, juicy Litchis - perfect for snacking or adding to your favorite recipes. Order now for a
+                      delightful taste experience!"</p>
+                  </div>
+                  <div class="icons">
+                    <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                    <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                    <a class="popup-btn"><img src="/icons/eye.svg"
+                        style="width:24px; height:24px;margin-top: 6px; "></a>
+                    <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popup-view">
+              <div class="popup-card">
+                <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                <div class="product-img">
+                  <img src="/image/Fruits/Litchi.png" alt="Litchi" style="height: 420px;width:auto;">
+                </div>
+                <div class="info">
+                  <h2>Litchi<br><span>
+
+
+                      "Sweet, Tropical Fruit." </span></h2>
+                  <p>
+
+                    "Experience the succulent delight of our premium Litchis. Bursting with sweetness, these juicy
+                    fruits are perfect for snacking, salads, and enhancing desserts. Treat yourself to the refreshing
+                    taste of our fresh Litchis today and elevate your culinary creations!"</p>
+                  <span class="price">RS 180<sub>(per kg)</sub></span>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </th>
+
+
+      </tr>
+    </table>
+
+
+    <div class="SideCart">
+      <img src="/icons/cart png.png" style="height:38px;width:38px ">
+
+      <span class="notification-dot"></span> <!-- Notification dot -->
+    </div>
+
+    <div id="cartKoBox" class="cartKoBox"><span class="cart">CART</span>
+      <div class="itemDetails">
+        <p class="itemDetails1"></p>
+
+        <button id="closeButton" class="closeButton"><img src="/icons/Cross.svg" style="height:50px;width:20px;">
+        </button>
+
+        <p id="grandTotal">Total Price = Rs. 0.00</p>
+        </button>
+
+      </div>
+      <a href="/Code/html/login.html"> <button class="purchase">Purchase</button></a>
+
+
+    </div>
+
+
+
+
+    <footer>
+      <!--Footer content inside black background-->
+      <div class="footercontainer">
+        <div class="foot">
+          <div class="about">
+            <div class="Container wrap">
+              <div class="row">
+                <div class="column">
+                  <div class="footer-widget about-widget">
+                    <h2 class="widget-title">About</h2>
+                    <p>GrocerEase is a place where you can have varities with freshness over
+                      grocery items. it is made by looking after customers opinions and needs &
+                      it's main motive is to provide FreshFare along with Customer Care.</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="category">
+            <div class="column">
+              <div class="footer-widget">
+                <h2 class="widget-title">Categories</h2>
+                <ul>
+                  <li><a href="/Code/html/veg.html">Veg</a></li>
+                  <li><a href="/Code/html/NonVeg.html">Nonveg</a></li>
+                  <li><a href="/Code/html/Beverages.html">Beverages</a></li>
+                  <li><a href="/Code/html/Dairy.html"></a>Dairy</li>
+                  <li><a href="/Code/html/essentials.html"></a>Essentials</li>
+                  <li><a href="/Code/html/Fruits.html"></a>Fruits</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="information">
+            <div class="column">
+              <div class="footer-widget">
+                <h2 class="widget-title">Information</h2>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Return & Exchange</a></li>
+                  <li><a href="#">Delivery</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Contact</h2>
+              <div class="contact-address">
+                Address: Itahari, Sunsari, Nepal.
+              </div>
+              <div class="contact-number">
+                Phone: +977 7835936120
+              </div>
+              <div class="contact-email">
+                Email: contact@grocerease.com
+              </div>
+            </div>
+            <div class="social-widget">
+              <h2 class="social-title">JoinUs</h2>
+              <div class="social">
+                <a href="#"><img class="fb" src="/icons/fb.png" alt=""></a>
+                <a href="#"><img class="insta" src="/icons/insta.png" alt=""></a>
+                <a href="#"><img class="twitt" src="/icons/twitt.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- div of date and time  -->
+        <div class="date" style="margin-left: 75%;position: absolute;margin-top: -2%;">
+          <script>
+            document.write(new Date());
+          </script>
+        </div>
+        <!-- end of div of date and time -->
+        <div class="copyright">
+          <p>Copyright © 2024 GrocerEase.
+            <script type="text/javascript">document.write(new Date().getFullYear());</script>
+            All rights reserved | Design made by Ease pvt.Ltd ...
+          </p>
+        </div>
+      </div>
+
+    </footer>
+  </div>
+  <script src="/Code/js/main.js">  </script>
+
+</body>
+
+</html>

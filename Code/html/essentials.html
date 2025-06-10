@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GrocerEAse</title>
+
+  <link rel="stylesheet" href="/Code/css/main.css">
+
+  <style>
+    /* .row-1
+  {
+      padding-left: 50%;
+      margin-top: 10%;
+      font-family:monospace;
+      font-size: 30px;
+      
+  } */
+  </style>
+</head>
+
+
+<body>
+
+  <header>
+    <div id="navbar">
+      <nav class="navitems">
+
+        <a href="/Code/html/index.html" class="bar active">Home</a>
+        <a href="/Code/html/allProducts.html" class="bar">Products</a>
+        <a href="/Code/html/blog.html" class="bar">Blog</a>
+        <a href="#" class="bar">Research</a>
+        <a href="/Code/html/Aboutus.html" class="bar">About us</a>
+      </nav>
+      <h2 class="log">Grocer <span style="color: #588552;">Ease</span></h2>
+      <img class="logo" src="/icons/logo (1).png" width="5%" alt=" GroceryEaseLogo">
+      <div class="search">
+        <form action="" class="frm1">
+          <input type="search" class="srch" placeholder="Search GrocerEase "></input>
+
+          <button class="button"><img id="btn1" src="/icons/search.png" alt=""></button>
+        </form>
+
+      </div>
+      <a href="/Code/html/login.html"><img class="user-img" src="/icons/user.png" alt=""></a>
+
+    </div>
+  </header>
+  <!-- Heading & nav-bar end -->
+
+  <div class="veg-banner">
+    <img src="/image/Essentials/essential banner.png"
+      style="height: 750px; width: 100%; margin-top: 1.5%; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);">
+  </div>
+  <marquee class="scrolling-text" loop="-1" scrollamount="20" width="100%">
+    Receive &nbsp; a&nbsp; flat &nbsp;cashback&nbsp; of &nbsp;Rs. 100 &nbsp;on&nbsp; your&nbsp; first&nbsp;
+    purchase&nbsp; of&nbsp; Rs. 1500&nbsp; or&nbsp; more.
+  </marquee>
+
+
+
+
+
+  <table class="table-1">
+
+
+
+    <tr>
+
+      <th>
+        <div class="product">
+
+          <!--for box1-->
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">Top
+                Selling--</div>
+            </div>
+            <div class="image">
+              <img src="/image/Essentials/Broom & Dustpan.png" alt="Broom & Dustpan" style="height: 250px;width:auto;">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#8902;&#8902;&#x2605;&#8902;&#8902;
+                </div>
+                <h3 class="Product-Name">Broom & Dustpan</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 1300</span> <sub style="font-size: 12px;">per
+                    set</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">Only For today :
+                  <span class="first-purchase-discount">-3%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Elevate cleanliness effortlessly with our broom and dustpan set. Designed for efficiency,
+                    durability, and style, they're essential for every home. Shop now!"
+
+
+
+
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <button> <img class="icon1" src="/icons/cart.ico"
+                      style="width:24px; height:24px;margin-right:2px; "></button>
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--box1 code ends-->
+
+
+          <!-- popup details for Box-1 -->
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/Essentials/Broom & Dustpan.png" alt="Broom & Dustpan"
+                  style="height: 430px;width: auto;margin-bottom:20px;">
+              </div>
+              <div class="info">
+                <h2>Broom & Pan<br><span>
+
+
+                    "Efficient cleaning essentials."</span></h2>
+                <p>
+
+
+                  "Introducing our premium broom and dustpan set: the ultimate cleaning companions for every household.
+                  Engineered for efficiency, durability, and style, they make tidying up a breeze. With ergonomic design
+                  and high-quality materials, they ensure pristine floors with every sweep. Elevate your cleaning
+                  routine today and experience the difference!"
+                </p>
+                <span class="price">RS 1300 <sub>per set</sub></span>
+                <label><input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- popup details for Box-1 ends -->
+
+        </div>
+
+      </th>
+
+
+
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">
+                Top
+                Selling--</div>
+            </div>
+            <div class="image">
+              <img src="/image/Essentials/floorcleaner.png" alt="Floor cleaner" style="height: 220px;width: auto;">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Floor cleaner</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 120</span> <sub style="font-size: 12px;">per
+                    piece</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">Only For today :
+                  <span class="first-purchase-discount">-3%</span>
+                </p>
+                <div class="Description">
+                  <p>
+                    "Powerful floor cleaner, removes dirt effortlessly, leaving floors sparkling clean and fresh. Get
+                    yours now!"
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/Essentials/floorcleaner.png" alt="Floor Cleaner" style="height: 330px;width: auto;">
+              </div>
+              <div class="info">
+                <h2>Floor cleaner<br><span>
+
+                    "Efficient floor cleaning."</span></h2>
+                <p>
+
+
+                  "Experience the ultimate in floor cleaning with our powerful cleaner. Specially formulated to tackle
+                  tough dirt and stains, it effortlessly lifts grime, leaving your floors sparkling clean and smelling
+                  fresh. Say goodbye to residue and hello to a pristine surface with every use. Enhance your cleaning
+                  routine and enjoy spotless floors that radiate cleanliness. Get your bottle today and transform your
+                  home!"
+                </p>
+                <span class="price">Rs. 120 <sub>per piece</sub></span>
+                <label><input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #4CAF50 0%, #8BC34A 51%, #CDDC39 100%);">New--</div>
+            </div>
+            <div class="image">
+              <img src="/image/Essentials/HandShop.png" alt="HandShop">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Handsoap</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 190</span> <sub style="font-size: 12px;">per
+                    piece</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">BUy 3kg and get 1kg
+                  <span class="first-purchase-discount">FREE</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Gentle hand soap, nourishing formula, leaves hands soft and clean. Elevate your hand hygiene
+                    routine with our luxurious hand soap."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/Essentials/HandShop.png" alt="HandSoap">
+              </div>
+              <div class="info">
+                <h2>Handsoap<br><span>
+
+                    "Nourishing hand care."</span></h2>
+                <p>
+                  "Indulge in the luxury of our nourishing hand soap. Formulated with gentle ingredients, it cleanses
+                  effectively while keeping your hands soft and moisturized. Say goodbye to dryness and hello to
+                  silky-smooth skin with every wash. Elevate your hand hygiene routine with our premium hand soap,
+                  crafted to pamper your skin and enhance your overall well-being. Experience the difference today!"
+                </p>
+                <span class="price">Rs. 120 <sub>per can</sub></span>
+                <label><input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/Essentials/Shampoo.png" alt="Shampoo" style="height:230px;width: auto ;">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Shampoo</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 110</span> <sub style="font-size: 12px;">per
+                  piece</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">First Purchase:
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Revitalize your hair with our invigorating shampoo, leaving locks refreshed and radiant. Discover
+                    your best hair days now!"</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/Essentials/Shampoo.png" alt="Shampoo" style="height:350px;width: auto ;">
+              </div>
+              <div class="info">
+                <h2>Shampoo<br><span>
+                    "Hair rejuvenation formula."</span></h2>
+                <p>
+                  "Transform your hair care routine with our revitalizing shampoo. Enriched with nourishing ingredients
+                  and a rejuvenating formula, it breathes new life into your locks, leaving them feeling refreshed,
+                  vibrant, and irresistibly soft. Say goodbye to dull, lifeless hair and hello to a revitalized mane
+                  that shines with health and vitality. "
+                </p>
+
+                <span class="price">Rs. 110<sub>per piece</sub></span>
+
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </tr>
+  </table>
+
+
+  <table class="table-2" style="margin-top: 80px; margin-bottom: 120px;">
+    <tr>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/Essentials/Hairoil.png" alt="Hair oil" style="height:220px;width: auto ;">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Hair Oil</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 80</span> <sub style="font-size: 12px;">per
+                  piece
+
+                </sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">no offer available
+                  <span class="first-purchase-discount"></span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Nourish and strengthen your hair with our enriching oil blend, leaving locks glossy and frizz-free.
+                    Unlock your hair's potential today!"
+
+
+
+
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/Essentials/Hairoil.png" alt="Hair oil" style="height: 420px;width: auto ;">
+              </div>
+              <div class="info">
+                <h2>Hair Oil<br><span>"
+                    "Hair strengthening elixir."</span></h2>
+                <p>
+                  "Experience the transformative power of our enriching hair oil. Infused with a blend of nourishing
+                  botanicals and vitamins, it penetrates deep into the hair shaft to strengthen, hydrate, and restore
+                  shine from root to tip. Say goodbye to frizz and breakage and hello to silky-smooth, lustrous locks
+                  that radiate health and vitality. Elevate your hair care routine and unlock your hair's true potential
+                  with our premium hair oil."
+
+
+                </p>
+                <span class="price">Rs. 80<sub>per piece</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #fd0000 0%, #f71919 50%, #e3480f 100%);">Out Of
+                Stock-- -</div>
+            </div>
+            <div class="image">
+              <img src="/image/Essentials/AirFreshner.png" alt="AirFreshner" style="height: 200px;width: auto ;">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;</div>
+              <h3 class="Product-Name">AirFreshner</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)"><s>RS. 350</s></span> <sub
+                  style="font-size: 12px;">per piece</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">Available
+                  <span class="first-purchase-discount">SOON</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Refresh any space with our long-lasting air freshener. Choose from a variety of scents to create
+                    the perfect ambiance."
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/Essentials/AirFreshner.png" alt="AirFreshner" style="height: 250px;width: auto ;">
+              </div>
+              <div class="info">
+                <h2>AirFreshner<br><span>
+
+                    "Instant freshness boost."</span></h2>
+                <p>
+                  "Transform your home or office into a fragrant oasis with our premium air fresheners. Infused with
+                  captivating scents, our long-lasting formula eliminates odors and leaves a lingering freshness that
+                  revitalizes any space. Choose from a variety of invigorating fragrances to suit your mood and
+                  preferences."
+
+                </p>
+                <span class="price">Rs. 350 <sub>per piece</sub></span>
+                <label>
+                  <label>
+                    <input type="number" min="1" max="99" value="1"
+                      style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                    <a href="#" class="add-cart-btn"
+                      style=" color: white; text-decoration: none; margin: 10px auto;
+                      padding: 10px 50px; border-radius: 5px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);border-radius: 20px;"
+                      onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='green';">
+                      Buy Now
+                    </a>
+                  </label>
+                  <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                    <span class="popuptext">Added ✅</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/Essentials/vimBar.png" alt="vim Bar" style="height: 230px;width: auto ;">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Vim Bar</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 135 </span> <sub style="font-size: 12px;">(3 X
+                    )</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">First Purchase
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Vimbar dish soap: Tough on grease, gentle on hands. Keep your dishes sparkling clean with our
+                    powerful yet gentle formula."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/Essentials/vimBar.png" alt="Vim Bar" style="height: 250px;width: auto ;">
+              </div>
+              <div class="info">
+                <h2>Vim Bar<br><span>
+                    "Gentle grease fighter."</span></h2>
+                <p>
+
+
+                  "Introducing Vimbar dish soap, your secret weapon against tough grease and grime. Our powerful yet
+                  gentle formula cuts through grease and food residue, leaving your dishes sparkling clean and your
+                  hands feeling soft. Say goodbye to stubborn stains and hello to effortless dishwashing with Vimbar.
+                  "</p>
+                <span class="price">RS 135 <sub>(3 x)</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/Essentials/Dustbin.png" alt="Dustbin">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Dustbin</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 999</span> <sub style="font-size: 12px;">per
+                  piece</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">First purchase :
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Simple, sturdy, reliable dustbin for everyday waste disposal. Keep your space clean and organized
+                    with our essential household item."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/Essentials/Dustbin.png" alt="Dustbin" style="height: 320px;width: auto ;">
+              </div>
+              <div class="info">
+                <h2>Dustbin<br><span>
+                    "Sturdy waste bin."</span></h2>
+                <p>
+
+                  "Introducing our durable and versatile dustbin, the essential solution for all your waste disposal
+                  needs. Crafted with sturdy materials and a functional design, it's perfect for keeping your home,
+                  office, or outdoor area clean and organized. </p>
+                <span class="price">Rs. 999 <sub>per piece</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+    </tr>
+  </table>
+  <div class="SideCart">
+    <img src="/icons/cart png.png" style="height:38px;width:38px ">
+
+    <span class="notification-dot"></span> <!-- Notification dot -->
+  </div>
+
+  <div id="cartKoBox" class="cartKoBox"><span class="cart">CART</span>
+    <div class="itemDetails">
+      <p class="itemDetails1"></p>
+
+      <button id="closeButton" class="closeButton"><img src="/icons/Cross.svg" style="height:50px;width:20px;">
+      </button>
+
+      <p id="grandTotal">Total Price = Rs. 0.00</p>
+      </button>
+
+    </div>
+    <a href="/Code/html/login.html"> <button class="purchase">Purchase</button></a>
+
+
+  </div>
+  <footer>
+    <!--Footer content inside black background-->
+    <div class="footercontainer">
+      <div class="foot">
+        <div class="about">
+          <div class="Container wrap">
+            <div class="row">
+              <div class="column">
+                <div class="footer-widget about-widget">
+                  <h2 class="widget-title">About</h2>
+                  <p>GrocerEase is a place where you can have varities with freshness over
+                    grocery items. it is made by looking after customers opinions and needs &
+                    it's main motive is to provide FreshFare along with Customer Care.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Categories</h2>
+              <ul>
+                <li><a href="/Code/html/veg.html">Veg</a></li>
+                <li><a href="/Code/html/NonVeg.html">Nonveg</a></li>
+                <li><a href="/Code/html/Beverages.html">Beverages</a></li>
+                <li><a href="/Code/html/Dairy.html"></a>Dairy</li>
+                <li><a href="/Code/html/essentials.html"></a>Essentials</li>
+                <li><a href="/Code/html/Fruits.html"></a>Fruits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="information">
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Information</h2>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Return & Exchange</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-widget">
+            <h2 class="widget-title">Contact</h2>
+            <div class="contact-address">
+              Address: Itahari, Sunsari, Nepal.
+            </div>
+            <div class="contact-number">
+              Phone: +977 7835936120
+            </div>
+            <div class="contact-email">
+              Email: contact@grocerease.com
+            </div>
+          </div>
+          <div class="social-widget">
+            <h2 class="social-title">JoinUs</h2>
+            <div class="social">
+              <a href="#"><img class="fb" src="/icons/fb.png" alt=""></a>
+              <a href="#"><img class="insta" src="/icons/insta.png" alt=""></a>
+              <a href="#"><img class="twitt" src="/icons/twitt.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- div of date and time  -->
+      <div class="date" style="margin-left: 75%;position: absolute;margin-top: -2%;">
+        <script>
+          document.write(new Date());
+        </script>
+      </div>
+      <!-- end of div of date and time -->
+      <div class="copyright">
+        <p>Copyright © 2024 GrocerEase.
+          <script type="text/javascript">document.write(new Date().getFullYear());</script>
+          All rights reserved | Design made by Ease pvt.Ltd ...
+        </p>
+      </div>
+    </div>
+
+  </footer>
+  </div>
+  <script src="/Code/js/main.js">  </script>
+
+</body>
+
+</html>

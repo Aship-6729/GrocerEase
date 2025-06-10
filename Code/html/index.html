@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grocerEase.np.com</title>
+
+    <link rel="stylesheet" href="/Code/css/indexstyle.css">
+    <link rel="website icon " type="png" href="/Image/ONN_design_edited-removebg-preview.png">
+    <script src="/Code/js/indexScript.js"></script>
+
+    <style>
+        #sliderimg {
+            margin-top: 9%;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- heading & nav-bar start -->
+    <header>
+        <div id="navbar">
+            <nav class="navitems">
+
+                <a href="/Code/html/index.html" class="bar active">Home</a>
+                <a href="/Code/html/allProducts.html" class="bar">Products</a>
+                <a href="/Code/html/blog.html" class="bar">Blog</a>
+                <a href="#" class="bar">Research</a>
+                <a href="/Code/html/Aboutus.html" class="bar">About us</a>
+            </nav>
+            <h2 class="log" style="color:rgb(203 193 137);">Grocer <span style="color: #629e5a;">Ease</span></h2>
+            <img class="logo" src="/icons/logo (1).png" width="5%" alt=" GroceryEaseLogo">
+            <div class="search">
+                <form action="" class="frm1">
+                    <input type="search" class="srch" placeholder="Search GrocerEase "></input>
+
+                    <button class="button"><img id="btn1" src="/icons/search.png" alt=""></button>
+                </form>
+
+            </div>
+            <a href="/Code/html/login.html"><img class="user-img" src="/icons/user.png" alt=""></a>
+
+        </div>
+    </header>
+    <!-- Heading & nav-bar end -->
+
+
+    <!-- Banner Html start -->
+    <div class="banner">
+        <img id="bg1" width="100%" src="/image/banner/banner grocer.png" alt="Background Image">
+        <div id="Ease">
+            <span style="color:white;font-size: 80px;">Welcome To </span><br> <span
+                style="color:gold;font-size: 60px;font-family:Verdana, Geneva, Tahoma, sans-serif">Grocer</span>
+            <span
+                style="color:rgb(3, 226, 107);font-size: 72px;font-family:Verdana, Geneva, Tahoma, sans-serif">Ease</span>
+        </div>
+        <div id="slogan">
+            <h3>"<span style="color: greenyellow;">FreshFare</span> With <span
+                    style="color:rgb(253, 231, 31);">Customer</span> <span
+                    style="color: rgba(45, 255, 97, 0.904);">Care</span>"</h3>
+        </div>
+        <div id="shopbtn">
+            <a href="/Code/html/product.html">Shop now</a>
+        </div>
+    </div>
+    <!-- Banner Html end -->
+
+    <div class="backgroundcolor">
+        <!--Image of image slider-->
+        <div class="slider">
+            <div id="sliderimg" style="max-width: 100%;">
+                <a href="#" class="slider1"><img class="slider1" src="/image/banner/a.png" alt=""></a>
+                <!--Image of slider...-->
+            </div>
+        </div>
+
+        <!--Boxes after slider start-->
+        <div class="vessel-1">
+            <h3 class="vessel-title">Veggies</h3>
+            <img class="pic1" src="/image/veg/spinach.png" width="100%" height="75%" alt="">
+
+            <a href="/Code/html/veg.html" class="vessel1btn">Shop now</a>
+        </div>
+        <div class="vessel-2">
+            <h3 class="vessel-title">Fruits</h3>
+            <img class="pic2" src="/image/Fruits/strawberry.png" width="100%" alt="">
+            <a href="/Code/html/Fruits.html" class="vessel2btn">Shop now</a>
+        </div>
+
+        <div class="vessel-3">
+            <h3 class="vessel-title">Build with Proteins (Non-Veg)</h3>
+            <img src="/image/nonveg/mutton.png" width="100%" alt="">
+            <a href="/Code/html/NonVeg.html" class="vesselbtn"
+                style="margin-top:80%;padding-left:5% ;position: absolute;">Shop now</a>
+
+        </div>
+        <div class="vessel-4">
+            <h3 class="vessel-title">Beverages & Snacks</h3>
+            <a href="/Code/html/Beverages.html"><img class="pic4" src="/image/home/cola.png" width="60%" height="70%"
+                    alt=""></a>
+            <a href="/Code/html/Snacks.html"><img class="pic5" src="/image/Snacks/lays.png" width="70%" height="75%"
+                    alt=""></a>
+            <a href="/Code/html/allProducts.html" class="vessel4btn">See more</a>
+        </div>
+        <div class="vessel-5">
+            <h3 class="vessel-title">Refresh your space (Essentials)</h3>
+            <img class="pic6" src="/image/home/essentials.png" width="100%" height="75%" alt="">
+
+            <a href="/Code/html/essentials.html" class="vessel5btn">Shop now</a>
+        </div>
+        <div class="vessel-6">
+            <h3 class="vessel-title">Dairy & Food Flavours</h3>
+            <a href="/Code/html/Dairy.html"><img class="pic7" src="/image/home/milk.png" width="70%" height="80%"
+                    alt=""></a>
+            <a href="/Code/html/foods&flavour.html"><img class="pic8" src="/image/home/flavours.png" width="40%"
+                    height="65%" alt=""></a>
+            <a href="/Code/html/allProducts.html" class="vessel6btn">See more</a>
+        </div>
+        <!--Boxes after slider end-->
+
+        <!--JS of Images slider -->
+        <script>
+            var sliderimages = ["/image/banner/a.png", "/image/banner/c.png", "/image/banner/d.png", "/image/banner/b.png"];
+            var p = 0;
+            var images = document.getElementById("sliderimg");
+
+            // Duration of slider 3 seconds i.e. 3000 miliseconds
+            setInterval(slider, 2000);
+            function slider() {
+                if (p < sliderimages.length) {
+                    p += 1;
+                }
+                else {
+                    p = 1;
+                }
+
+                images.innerHTML = "<img src=" + sliderimages[p - 1] + ">";
+
+            }
+        </script>
+        <!--End of slider -->
+        <h2 class="greet">Hello <br><span style="color: #2ada13;">Customer</span></h2>
+
+        <video autoplay loop muted src="/Video/grocery2.mp4" class="video1" type="Video/mp4"></video>
+
+        <div class="products">
+            <table class="section-1">
+                <tr>
+                    <th colspan="4">
+                        <h1 class="feature"><sup>**</sup>Featured Products<sup>**</sup></h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <!-- 1st Box of Featured Products -->
+                        <div class="Box">
+                            <div class="price-corner"></div>
+                            <div class="image">
+                                <img src="/image/veg/carrot.png" alt="">
+                            </div>
+                            <div class="content-container-before">
+                                <h3 class="Product-Name">Carrot</h3>
+                                <p class="price"><span style="color:rgb(80, 117, 80)">Rs.95</span> <sub
+                                        style="font-size: 12px;">per
+                                        kg</sub> </p>
+                                <div class="inner-content-container">
+                                    <p class="First-Purchase">Good for health
+
+                                    </p>
+                                    <div class="Description">
+                                        <p>"Discover the crisp sweetness of locally grown Nepali carrots, bursting with
+                                            health and freshness,
+                                            ready to add a juicy crunch to your meals."</p>
+                                    </div>
+                                    <div class="icons">
+                                        <span class="icon icon1"><img src="/icons/eye.png" alt="eye"></span>
+                                        <span class="icon icon2"> <img src="/icons/cart.ico" alt="cart"
+                                                style="width:24px; height:24px;margin-right:2px;"></span>
+                                        <span class=" icon icon3"><img src="/icons/heart.png" alt="heart"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <!-- 2nd Box of freatured products -->
+                        <div class="Box">
+                            <div class="price-corner"></div>
+                            <div class="image">
+                                <img src="/image/veg/spinach.png" alt="">
+                            </div>
+                            <div class="content-container-before">
+                                <h3 class="Product-Name">Spinach</h3>
+                                <p class="price"><span style="color:rgb(80, 117, 80)">Rs.51</span> <sub
+                                        style="font-size: 12px;">per .5
+                                        kg</sub> </p>
+                                <div class="inner-content-container">
+                                    <p class="First-Purchase"> Fresh and healthy
+
+                                    </p>
+                                    <div class="Description">
+                                        <p>"Welcome to the kingdom of spinach: fresh, vibrant, and bursting with
+                                            nutrients. A leafy green
+                                            companion for your culinary quests!"</p>
+                                    </div>
+                                    <div class="icons">
+                                        <span class="icon icon1"><img src="/icons/eye.png" alt="eye"></span>
+                                        <span class="icon icon2"> <img src="/icons/cart.ico" alt="cart"
+                                                style="width:24px; height:24px;margin-right:2px;"></span>
+                                        <span class=" icon icon3"><img src="/icons/heart.png" alt="heart"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <!-- 3rd box of featured products -->
+                        <div class="Box">
+                            <div class="price-corner"></div>
+                            <div class="image">
+                                <img src="/image/veg/potatoes.png" alt="">
+                            </div>
+                            <div class="content-container-before">
+                                <h3 class="Product-Name">Potato</h3>
+                                <p class="price"><span style="color:rgb(80, 117, 80)"> Rs.45</span> <sub
+                                        style="font-size: 12px;">per
+                                        kg</sub><s style="font-size: 12px; right:55%;position: relative; color: rgba(255, 0, 0, 0.8);
+                      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-weight: bold;">Rs
+                                        55</s> </p>
+                                <div class="inner-content-container">
+                                    <p class="First-Purchase"> fits for every meal
+
+                                    </p>
+                                    <div class="Description">
+                                        <p>"Fresh, versatile potatoes:
+                                            culinary stars for creamy mash
+                                            or crispy fries. Nutrient-packed and locally
+                                            sourced for wholesome goodness."</p>
+                                    </div>
+                                    <div class="icons">
+                                        <span class="icon icon1"><img src="/icons/eye.png" alt="eye"></span>
+                                        <span class="icon icon2"> <img src="/icons/cart.ico" alt="cart"
+                                                style="width:24px; height:24px;margin-right:2px;"></span>
+                                        <span class=" icon icon3"><img src="/icons/heart.png" alt="heart"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <!-- 4th Box of featured products -->
+                        <div class="Box">
+                            <div class="price-corner"></div>
+                            <div class="image">
+                                <img src="/image/veg/Tomato.png" alt="">
+                            </div>
+                            <div class="content-container-before">
+                                <h3 class="Product-Name">Tomato</h3>
+                                <p class="price"><span style="color:rgb(80, 117, 80)">Rs.129</span> <sub
+                                        style="font-size: 12px;">per
+                                        kg</sub> </p>
+                                <div class="inner-content-container">
+                                    <p class="First-Purchase">fresh and healthy
+
+                                    </p>
+                                    <div class="Description">
+                                        <p> "Experience the vibrant flavors of Nepal with our succulent tomatoes, grown
+                                            with care in local
+                                            fields for true homegrown essence."</p>
+                                    </div>
+                                    <div class="icons">
+                                        <span class="icon icon1"><img src="/icons/eye.png" alt="eye"></span>
+                                        <span class="icon icon2"> <img src="/icons/cart.ico" alt="cart"
+                                                style="width:24px; height:24px;margin-right:2px;"></span>
+                                        <span class=" icon icon3"><img src="/icons/heart.png" alt="heart"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+            <!--see more button -->
+            <div class="morecontainer">
+                <a class="more" href="/Code/html/veg.html">See more</a>
+            </div>
+
+            <!-- popular items  -->
+            <table class="section-2">
+                <tr>
+                    <th colspan="4">
+                        <h1 class="feature"><sup>**</sup>Popular items this season<sup>**</sup></h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <!-- 1st box of popular items  -->
+                        <div class="Box1">
+                            <div class="price-corner"></div>
+                            <div class="image">
+                                <img src="/image/Fruits/Avacados.png" style="height:70%; width:auto" alt="">
+                            </div>
+                            <div class="content-container-before">
+                                <h3 class="Product-Name">Avacados</h3>
+                                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 450</span> <sub
+                                        style="font-size: 12px;">per
+                                        kg</sub> </p>
+                                <div class="inner-content-container">
+                                    <p class="First-Purchase">
+
+                                    </p>
+                                    <div class="Description">
+                                        <p> "Avocados: Creamy, nutritious fruit packed with healthy fats, perfect for
+                                            salads, spreads, or
+                                            simply enjoyed on their own."</p>
+                                    </div>
+                                    <div class="icons">
+                                        <span class="icon icon1"><img src="/icons/eye.png" alt="eye"></span>
+                                        <span class="icon icon2"> <img src="/icons/cart.ico" alt="cart"
+                                                style="width:24px; height:24px;margin-right:2px;"></span>
+                                        <span class=" icon icon3"><img src="/icons/heart.png" alt="heart"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <!-- 1st box of popular items  -->
+                        <div class="Box1">
+                            <div class="price-corner"></div>
+                            <div class="image">
+                                <img src="/image/Fruits/pineapple.png" style="height:70%; width:auto" alt="">
+                            </div>
+                            <div class="content-container-before">
+                                <h3 class="Product-Name">Pineapple</h3>
+                                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 225</span> <sub
+                                        style="font-size: 12px;">per
+                                        kg</sub> </p>
+                                <div class="inner-content-container">
+                                    <p class="First-Purchase">Fresh and Healhty
+
+                                    </p>
+                                    <div class="Description">
+                                        <p> "Juicy, tropical pineapple: Sweet, tangy fruit perfect for snacking,
+                                            grilling, or adding a
+                                            tropical twist to recipes and desserts."</p>
+                                    </div>
+                                    <div class="icons">
+                                        <span class="icon icon1"><img src="/icons/eye.png" alt="eye"></span>
+                                        <span class="icon icon2"> <img src="/icons/cart.ico" alt="cart"
+                                                style="width:24px; height:24px;margin-right:2px;"></span>
+                                        <span class=" icon icon3"><img src="/icons/heart.png" alt="heart"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <!-- 1st box of popular items  -->
+                        <div class="Box1">
+                            <div class="price-corner"></div>
+                            <div class="image">
+                                <img src="/image/home/cold-drink-2009254300-83qu5vbj.png" style="height:70%; width:auto"
+                                    alt="">
+                            </div>
+                            <div class="content-container-before">
+                                <h3 class="Product-Name">Can-soda</h3>
+                                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 120</span> <sub
+                                        style="font-size: 12px;">per
+                                        can</sub> </p>
+                                <div class="inner-content-container">
+                                    <p class="First-Purchase">Fresh and Healhty
+
+                                    </p>
+                                    <div class="Description">
+                                        <p>
+                                            "Iconic, refreshing, classic! Perfect for quenching thirst and adding a
+                                            fizzy kick to your
+                                            favorite beverages or cocktails."</p>
+                                    </div>
+                                    <div class="icons">
+                                        <span class="icon icon1"><img src="/icons/eye.png" alt="eye"></span>
+                                        <span class="icon icon2"> <img src="/icons/cart.ico" alt="cart"
+                                                style="width:24px; height:24px;margin-right:2px;"></span>
+                                        <span class=" icon icon3"><img src="/icons/heart.png" alt="heart"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th>
+                        <!-- 4th box of popular items-->
+                        <div class="Box1">
+                            <div class="price-corner"></div>
+                            <div class="image">
+                                <img src="/image/Fruits/Grapes.png" alt="">
+                            </div>
+                            <div class="content-container-before">
+                                <h3 class="Product-Name">Grapes</h3>
+                                <p class="price">Rs.120 </p>
+                                <div class="inner-content-container">
+                                    <p class="First-Purchase">Fresh and Healhty
+
+                                    </p>
+                                    <div class="Description">
+                                        <p>
+                                            "Grapes: Sweet, juicy fruits, perfect for snacking, adding to salads, or
+                                            freezing for a
+                                            refreshing
+                                            treat on hot days."</p>
+                                    </div>
+                                    <div class="icons">
+                                        <span class="icon icon1"><img src="/icons/eye.png" alt="eye"></span>
+                                        <span class="icon icon2"> <img src="/icons/cart.ico" alt="cart"
+                                                style="width:24px; height:24px;margin-right:2px;"></span>
+                                        <span class=" icon icon3"><img src="/icons/heart.png" alt="heart"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div class="morecontainer">
+            <a class="more" href="/Code/html/allProducts.html">See more</a>
+        </div>
+
+
+        <!--Two banners before footer-->
+        <div class="bannercontainer">
+
+            <a href="#"><img class="banner1" src="/image/banner/banner1.png" alt=""></a>
+
+            <a href="#"><img class="banner2" src="/Image/banner/banner2.png" alt=""></a>
+        </div>
+        <!--End of banner-->
+
+        <!--Start of footer section-->
+        <footer>
+            <div class="logincontainer">
+                <div class="loginbtncontainer">
+                    <div class="login-widget">
+                        <p>Want to be part of GrocerEase ?</p> <br>
+                        <a href="/Code/html/login.html" class="loginbtn">Login</a> <br>
+                        <p style="margin-left: 3%; margin-top: 1.5%; font-size: small;">New customer ? click above</p>
+                    </div>
+                </div>
+            </div>
+            <div class="backvessel">
+                <button class="backbtn" onclick="SlidetoTop()">
+                    Back to top
+                </button>
+            </div>
+
+            <script>
+                function SlidetoTop() {
+                    document.documentElement.scrollTop = 0;
+
+                }
+            </script>
+
+            <!--Footer content inside black background-->
+            <div class="footercontainer">
+                <div class="foot">
+                    <div class="about">
+                        <div class="Container wrap">
+                            <div class="row">
+                                <div class="column">
+                                    <div class="footer-widget about-widget">
+                                        <h2 class="widget-title">About</h2>
+                                        <p>GrocerEase is a place where you can have varities with freshness over
+                                            grocery items. it is made by looking after customers opinions and needs &
+                                            it's main motive is to provide FreshFare along with Customer Care.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <div class="column">
+                            <div class="footer-widget">
+                                <h2 class="widget-title">Categories</h2>
+                                <ul>
+                                    <li><a href="/Code/html/veg.html">Veg</a></li>
+                                    <li><a href="/Code/html/NonVeg.html">Nonveg</a></li>
+                                    <li><a href="/Code/html/Beverages.html">Beverages</a></li>
+                                    <li><a href="/Code/html/Dairy.html"></a>Dairy</li>
+                                    <li><a href="/Code/html/essentials.html"></a>Essentials</li>
+                                    <li><a href="/Code/html/Fruits.html"></a>Fruits</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <div class="column">
+                            <div class="footer-widget">
+                                <h2 class="widget-title">Information</h2>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Return & Exchange</a></li>
+                                    <li><a href="#">Delivery</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="footer-widget">
+                            <h2 class="widget-title">Contact</h2>
+                            <div class="contact-address">
+                                Address: Itahari, Sunsari, Nepal.
+                            </div>
+                            <div class="contact-number">
+                                Phone: +977 7835936120
+                            </div>
+                            <div class="contact-email">
+                                Email: contact@grocerease.com
+                            </div>
+                        </div>
+                        <div class="social-widget">
+                            <h2 class="social-title">JoinUs</h2>
+                            <div class="social">
+                                <a href="#"><img class="fb" src="/icons/fb.png" alt=""></a>
+                                <a href="#"><img class="insta" src="/icons/insta.png" alt=""></a>
+                                <a href="#"><img class="twitt" src="/icons/twitt.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- div of date and time  -->
+                <div class="date" style="margin-left: 75%;position: absolute;margin-top: -2%;">
+                    <script>
+                        document.write(new Date());
+                    </script>
+                </div>
+                <!-- end of div of date and time -->
+                <div class="copyright">
+                    <p>Copyright © 2024 GrocerEase.
+                        <script type="text/javascript">document.write(new Date().getFullYear());</script>
+                        All rights reserved | Design made by Ease pvt.Ltd ...
+                    </p>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

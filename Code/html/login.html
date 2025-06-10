@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginToGrocerEase</title>
+    <link rel="website icon" type="png" href="/Image/ONN_design_edited-removebg-preview.png">
+    <link rel="stylesheet" href="/Code/css/loginstyle.css">
+</head>
+
+<body>
+    <div class="glass">
+        <form name="loginform" onsubmit="validform()" class="container">
+            <h1>Login</h1>
+            <input class="mail" type="email" name="email" placeholder="Email">
+            <br>
+            <input class="pass" type="password" name="password" placeholder="Password">
+            <br>
+            <h5 align="right">Already have an acoount ?</h5>
+            <button class="btn" onclick="Backtopage()">Login</button>
+            <p align="center">OR</p>
+            <p align="center">Sign-up with</p>
+            <div id="sign">
+                <a href="https://appleid.apple.com/sign-in"><img class="signupimg0" src="/icons/apple.png" alt=""></a>
+                <a href="https://support.google.com/accounts/answer/27441?hl=en" class="signuplogo"><img
+                        class="signupimg1" src="/Image/home/google.png" alt="google"></a>
+                <a href="https://www.facebook.com/login.php/"><img class="signupimg2"
+                        src="/image/home/Facebook-Logosu.png" alt=""></a>
+                <a
+                    href="https://signup.live.com/signup?client_id=81feaced-5ddd-41e7-8bef-3e20a2689bb7&contextid=2BD8CD90D8E8EEC1&opid=48AC5DB8E89F08F0&bk=1714147721&sru=https://login.live.com/oauth20_authorize.srf%3fclient_id%3d81feaced-5ddd-41e7-8bef-3e20a2689bb7%26client_id%3d81feaced-5ddd-41e7-8bef-3e20a2689bb7%26contextid%3d2BD8CD90D8E8EEC1%26opid%3d48AC5DB8E89F08F0%26mkt%3dEN-US%26lc%3d1033%26bk%3d1714147721%26uaid%3d59330b12716f4fbf958ba74fc6d2d1c1&uiflavor=web&lic=1&mkt=EN-US&lc=1033&uaid=59330b12716f4fbf958ba74fc6d2d1c1"><img
+                        class="signupimg3" src="/icons/Microsoft-Logo.png" alt=""></a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function validform() {
+            var email = document.forms["loginform"]["email"].value;
+            var password = document.forms["loginform"]["password"].value;
+
+            if (email == "" && password == "") {
+                alert("please Fill up the Form first");
+
+            }
+            else if (email == "") {
+                alert("Please enter your email address");
+            } else if (password == "") {
+                alert("Please enter your password");
+            } else {
+                alert("Thank you for Login");
+
+
+            }
+
+
+        }
+
+        function Backtopage() {
+
+            location.href = "index.html";
+
+
+        }
+
+    </script>
+</body>
+
+</html>

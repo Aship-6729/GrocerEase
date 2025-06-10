@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Code/css/aboutus.css"> <!-- Linking to external CSS file -->
+  <title>About Us</title>
+</head>
+<!-- LINKING WITH INTERNAL CSS FILE-->
+<style>
+  .aboutbtn {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    margin-top: 20%;
+
+    margin-left: -49%;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease;
+    justify-content: flex-start;
+    margin: right;
+  }
+</style>
+
+<body>
+  <!-- heading & nav-bar start -->
+  <header>
+    <div id="navbar">
+      <nav class="navitems">
+
+        <a href="/Code/html/index.html" class="bar active">Home</a>
+        <a href="/Code/html/allProducts.html" class="bar">Products</a>
+        <a href="/Code/html/blog.html" class="bar">Blog</a>
+        <a href="#" class="bar">Research</a>
+        <a href="/Code/html/Aboutus.html" class="bar">About us</a>
+      </nav>
+      <h2 class="log">Grocer <span style="color: #588552;">Ease</span></h2>
+      <img class="logo" src="/icons/logo (1).png" width="5%" alt=" GroceryEaseLogo">
+      <div class="search">
+        <form action="" class="frm1">
+          <input type="search" class="srch" placeholder="Search GrocerEase "></input>
+
+          <button class="button"><img id="btn1" src="/icons/search.png" alt=""></button>
+        </form>
+
+      </div>
+      <a href="/Code/html/login.html"><img class="user-img" src="/icons/user.png" alt=""></a>
+
+    </div>
+  </header>
+  <!-- Heading & nav-bar end -->
+
+  <br>
+  <br>
+  <br>
+  <!--ABOUT US SECTION-->
+  <div class="about-us-class">
+    <div class="aboutcontainer">
+      <div class="aboutrow">
+        <div class="aboutflex">
+          <h1>About Us</h1>
+          <br>
+          <h3>Discover Our GROCERY STORE</h3>
+          <p>At our store in Itahari, we sell lots of different things you might need. We've got fresh veggies, meat if
+            you eat it, drinks like juice and soda, dairy like milk and cheese, stuff to keep you clean, and other
+            things you might not expect. Come check us out!</p>
+          <br>
+
+        </div>
+        <a href="#" class="aboutbtn">Learn More</a>
+      </div>
+
+      <div class="aboutlogoimage">
+        <img class="aboutlogoimage" src="/image/aboutus/logo.png">
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--OUR TEAM SECTION-->
+  <h1 class="heading">Our Team</h1> <br> <br>
+  <div class="image-container">
+    <div class="image" onclick="fetch_info(0)"> <img class="img" src="/image/aboutus/jenish.jpg"></div>
+    <div class="image" onclick="fetch_info(1)"> <img class="img" src="/image/aboutus/Aship.jpeg"></div>
+    <div class="image" onclick="fetch_info(2)"> <img class="img" src="/image/aboutus/bipul.jpg"></div>
+    <div class="image" onclick="fetch_info(3)"> <img class="img" src="/image/blogimg/Nirjala.jpeg"></div>
+    <div class="image" onclick="fetch_info(4)"> <img class="img" src="/img/images.jpeg"></div>
+  </div>
+  <div class="info-container">
+    <img class="profile" id="profile" src="/image/aboutus/jenish.jpg">
+    <div class="info">
+      <h1 class="name" id="name">JENISH KUNWAR</h1>
+      <H3 class="status" id="status">ABOUT US DESIGNER</H3>
+      <P class="about" id="about">
+        Hi everyone, I'm Jenish Kunwar, the creative man behind our website's About us page. I'm 18 and I'm currently
+        study in IIC college.This is my first experience to make any web page. I have try my best to make this page look
+        good. I,m not from computer background. So, it,s litte bit hard to make this page but my teacher and friend help
+        me lot
+      </P>
+    </div>
+
+
+  </div>
+  <script>
+    function fetch_info(i) {
+      let profile = ["/image/aboutus/jenish.jpg", "/image/aboutus/Aship.jpeg", "/image/aboutus/bipul.jpg", "/image/blogimg/Nirjala.jpeg", "/img/images.jpeg"];
+      let name = ["JENISH KUNWAR", "ASHIP ALAM", "BIPUL", "NIRJALA GHIMIRE", "PRATIKSHYA DAHAL"];
+      let status = ["ABOUT US PAGE DESIGNER", "HOME PAGE DESIGNER", "PRODUCT PAGE DESIGNER", "BLOG PAGE DESIGNER", "RESEARCH PAGE DESIGNER"];
+      let about = ["Hi everyone, I'm Jenish Kunwar, the creative man behind our website's About us page. I'm 18 and I'm currently study in IIC college. This is my first experience to make any web page. I have try my best to make this page look good. I,m not from computer background. SO, it,s litte bit hard to make this page but my teacher and friend help me lot ",
+        "Aship Alam is a highly skilled designer with a passion for creating visually stunning designs. He has a keen eye for detail and is always looking for ways to improve his craft.",
+        "Hi there! I'm Bipul Bhandari, and I'm the one making all the product pages on our website. I'm 19 and live in Dulari. I work hard to make sure our online store has everything you need, from fresh fruits to pantry staples. Let's make your grocery shopping easy and fun!pul is a talented designer with a strong background in product design. He is known for his ability to create designs that are both functional and aesthetically pleasing.",
+        "Hi everyone, I'm Nirjala Ghimire, the creative force behind our website's blog page. I'm 18 and I'm from birtamode.In this page, I have  dished out the freshest tips, recipes and  insights to elevate your kitchen adventures!Nirjala Ghimire is a creative and innovative designer with a passion for blogging. She has a talent for writing engaging content and creating designs that capture the reader's attention.",
+        "Pratikshya Dahal is a highly skilled researcher with a passion for uncovering new insights and trends. She is known for her attention to detail and her ability to analyze complex data."];
+      document.getElementById("profile").src = profile[i];
+      document.getElementById("name").innerHTML = name[i];
+      document.getElementById("status").innerHTML = status[i];
+      document.getElementById("about").innerHTML = about[i];
+    }
+  </script>
+  <br>
+  <br>
+  <br>
+  <!--FORM SECTION-->
+  <div class="container">
+    <h1>Please Fill This Form</h1>
+    <div class="form-container">
+      <form>
+        <div class="inputname">
+          <label for="fname">First Name : </label>
+          <input type="text" id="fname" placeholder="Enter Your First Name" required autofocus />
+        </div>
+        <div>
+          <label for="lname">Last Name : </label>
+          <input type="text" id="lname" placeholder="Enter Your Last Name" />
+        </div>
+        <div>
+          <label for="email">Email : </label>
+          <input type="email" id="email" placeholder="Enter Your Email" required />
+        </div>
+        <div>
+          <label for="dob">DOB:</label>
+          <input type="date" value="dob" id="dob" name="dob" />
+        </div>
+        <div>
+          <label for="message">Suggestion For Us:</label>
+          <textarea id="message" placeholder="Enter Your Message" rows="4" cols="30"></textarea>
+        </div>
+        <button type="button" onclick="validateForm()">Submit</button>
+        <button type="button" onclick="Reset()">Reset</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function validateForm() {
+      var fname = document.getElementById("fname").value;
+      var lname = document.getElementById("lname").value;
+      var email = document.getElementById("email").value;
+      var dob = document.getElementById("dob").value;
+      var message = document.getElementById("message").value;
+
+      if (fname === "") {
+        alert("First Name is required!");
+        return false;
+      }
+      if (lname === "") {
+        alert("Last Name is required!");
+        return false;
+      }
+      if (email === "") {
+        alert("Email is required!");
+        return false;
+      }
+      if (dob === "") {
+        alert("Date of Birth is required!");
+        return false;
+      }
+      if (message === "") {
+        alert("Message is required!");
+        return false;
+      }
+
+      alert("Thank You For Your Time :>");
+      return true;
+    }
+
+    function Reset() {
+      document.getElementById("fname").value = "";
+      document.getElementById("lname").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("dob").value = "";
+      document.getElementById("message").value = "";
+    }
+  </script>
+
+
+  <footer>
+    <!--Footer content inside black background-->
+    <div class="footercontainer">
+      <div class="foot">
+        <div class="about">
+          <div class="Container wrap">
+            <div class="row">
+              <div class="column">
+                <div class="footer-widget about-widget">
+                  <h2 class="widget-title">About</h2>
+                  <p>GrocerEase is a place where you can have varities with freshness over
+                    grocery items. it is made by looking after customers opinions and needs &
+                    it's main motive is to provide FreshFare along with Customer Care.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Categories</h2>
+              <ul>
+                <li><a href="/Code/html/veg.html">Veg</a></li>
+                <li><a href="/Code/html/NonVeg.html">Nonveg</a></li>
+                <li><a href="/Code/html/Beverages.html">Beverages</a></li>
+                <li><a href="/Code/html/Dairy.html"></a>Dairy</li>
+                <li><a href="/Code/html/essentials.html"></a>Essentials</li>
+                <li><a href="/Code/html/Fruits.html"></a>Fruits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="information">
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Information</h2>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Return & Exchange</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-widget">
+            <h2 class="widget-title">Contact</h2>
+            <div class="contact-address">
+              Address: Itahari, Sunsari, Nepal.
+            </div>
+            <div class="contact-number">
+              Phone: +977 7835936120
+            </div>
+            <div class="contact-email">
+              Email: contact@grocerease.com
+            </div>
+          </div>
+          <div class="social-widget">
+            <h2 class="social-title">JoinUs</h2>
+            <div class="social">
+              <a href="#"><img class="fb" src="/icons/fb.png" alt=""></a>
+              <a href="#"><img class="insta" src="/icons/insta.png" alt=""></a>
+              <a href="#"><img class="twitt" src="/icons/twitt.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- div of date and time  -->
+      <div class="date" style="margin-left: 75%;position: absolute;margin-top: -2%;">
+        <div id="clock"></div>
+        <script>
+          function updateClock() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            // Add leading zeroes if needed
+            hours = (hours < 10 ? "0" : "") + hours;
+            minutes = (minutes < 10 ? "0" : "") + minutes;
+            seconds = (seconds < 10 ? "0" : "") + seconds;
+
+            var date = now.toDateString(); // Get the full date string
+            var timeString = hours + ":" + minutes + ":" + seconds + " " + date;
+            document.getElementById("clock").innerHTML = timeString;
+          }
+
+          // Update the clock every second
+          setInterval(updateClock, 1000);
+
+          // Initial call to display the clock immediately
+          updateClock();
+
+        </script>
+      </div>
+      <!-- end of div of date and time -->
+      <div class="copyright">
+        <p>Copyright © 2024 GrocerEase.
+          <script type="text/javascript">document.write(new Date().getFullYear());</script>
+          All rights reserved | Design made by Ease pvt.Ltd ...
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

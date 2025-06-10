@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GrocerEAse</title>
+
+  <link rel="stylesheet" href="/Code/css/main.css">
+
+
+  <style>
+    #clock {
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <!-- heading & nav-bar start -->
+  <header>
+    <div id="navbar">
+      <nav class="navitems">
+
+        <a href="/Code/html/index.html" class="bar active">Home</a>
+        <a href="/Code/html/allProducts.html" class="bar">Products</a>
+        <a href="/Code/html/blog.html" class="bar">Blog</a>
+        <a href="#" class="bar">Research</a>
+        <a href="/Code/html/Aboutus.html" class="bar">About us</a>
+      </nav>
+      <h2 class="log">Grocer <span style="color: #588552;">Ease</span></h2>
+      <img class="logo" src="/icons/logo (1).png" width="5%" alt=" GroceryEaseLogo">
+      <div class="search">
+        <form action="" class="frm1">
+          <input type="search" class="srch" placeholder="Search GrocerEase "></input>
+
+          <button class="button"><img id="btn1" src="/icons/search.png" alt=""></button>
+        </form>
+
+      </div>
+      <a href="/Code/html/login.html"><img class="user-img" src="/icons/user.png" alt=""></a>
+
+    </div>
+  </header>
+  <!-- Heading & nav-bar end -->
+
+  <div class="NonVeg-banner">
+    <img src="/image/nonveg/nonVegBanner.png"
+      style="height: 790px; width: 100%; margin-top: 0; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);">
+  </div>
+  <marquee class="scrolling-text" loop="-1" scrollamount="20" width="100%">
+    Receive &nbsp; a&nbsp; flat &nbsp;cashback&nbsp; of &nbsp;Rs. 100 &nbsp;on&nbsp; your&nbsp; first&nbsp;
+    purchase&nbsp; of&nbsp; Rs. 1500&nbsp; or&nbsp; more.
+  </marquee>
+
+
+
+
+  <table class="table-1"> <!--Table1 created-->
+
+    <tr> <!--Row created in table 1-->
+
+
+
+      <th>
+        <div class="product">
+
+          <!--for box1-->
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">Top
+                Selling--</div>
+            </div>
+            <div class="image">
+              <img src="/image/nonveg/Chicken2.png" alt="Chicken">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#8902;&#8902;&#x2605;&#8902;&#8902;
+                </div>
+                <h3 class="Product-Name">Chicken</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs.410</span> <sub style="font-size: 12px;">per
+                    kg</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">Only For today :
+                  <span class="first-purchase-discount">-3%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Chicken: Versatile, protein-rich, delicious! Perfect for grilling, roasting, or simmering in
+                    flavorful sauces for a satisfying meal."
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--box1 code ends-->
+
+
+          <!-- popup details for Box-1 -->
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/Chicken2.png" alt="Chicken">
+              </div>
+              <div class="info">
+                <h2>Chicken<br><span>
+                    "Versatile, protein-rich, delicious!"</span></h2>
+                <p>
+                  "Chicken: A staple protein in countless cuisines, its versatility shines in dishes ranging from
+                  comforting soups to succulent roasts. With its lean, protein-rich meat, chicken serves as a
+                  nutritious foundation for a variety of flavorful recipes. Explore the endless possibilities of
+                  chicken in your cooking and enjoy delicious meals for any occasion!"
+                </p>
+                <span class="price">RS 120 <sub>per kg</sub></span>
+                <label><input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+
+
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- popup details for Box-1 ends -->
+
+        </div>
+
+      </th>
+
+
+
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">
+                Top
+                Selling--</div>
+            </div>
+            <div class="image">
+              <img src="/image/nonveg/duck.png" alt="Duck">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Duck</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs.900</span> <sub style="font-size: 12px;">per
+                    kg</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">Only For today :
+                  <span class="first-purchase-discount">-3%</span>
+                </p>
+                <div class="Description">
+                  <p>
+                    "Duck: Rich, flavorful, succulent! Perfect for roasting, grilling, or braising to create gourmet
+                    dishes with an exquisite taste."
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/duck.png" alt="Duck">
+              </div>
+              <div class="info">
+                <h2>Duck<br><span>
+                    "succulent & flavorful!"</span></h2>
+                <p>
+
+                  "Duck: Treat yourself to the savory delight of our premium duck. With its juicy, flavorful meat,
+                  it's the perfect choice for elevating your meals to gourmet status. Whether you're grilling,
+                  roasting, or simmering in a rich sauce, our duck promises to deliver an unforgettable dining
+                  experience. Bring home the taste of luxury today!"
+                </p>
+                <span class="price">Rs. 900 <sub>per kg</sub></span>
+                <label><input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">
+                Top
+                Selling--</div>
+            </div>
+
+            <div class="image">
+              <img src="/image/nonveg/turkey.png" alt="Turkey">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Turkey</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 1899</span> <sub style="font-size: 12px;">per
+                    kg</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">Buy 10kg To get 1kg
+                  <span class="first-purchase-discount">FREE</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Gourmet, succulent, versatile! Perfect for roasting, grilling, or smoking to create mouthwatering
+                    dishes for any occasion."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+
+                  <img class="icon1" src="/icons/cart.svg" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/turkey.png" alt="Turkey">
+              </div>
+              <div class="info">
+                <h2>Turkey<br><span>
+                    "Juicy, festive favorite!"</span></h2>
+                <p>
+                  "Discover the savory joy of our premium turkey! Whether roasted, grilled, or smoked, its juicy
+                  tenderness and rich flavor elevate any meal. Perfect for festive feasts or casual gatherings, our
+                  turkey promises to impress with every bite, making every occasion memorable. Bring home the
+                  delicious taste of our top-quality turkey today and savor the goodness!"
+                </p>
+                <span class="price">Rs. 95 <sub>per kg</sub></span>
+                <label><input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a></label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #4CAF50 0%, #8BC34A 51%, #CDDC39 100%);">New--</div>
+            </div>
+
+            <div class="image">
+              <img src="/image/nonveg/Ostrich.png" alt="Ostrich">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Ostrich</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 1299</span> <sub style="font-size: 12px;">per
+                  kg</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">First Purchase:
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Exotic, lean, flavorful! Perfect for grilling, roasting, or stir-frying to create unique and
+                    delicious dishes for adventurous palates."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/Ostrich.png" alt="Ostrich">
+              </div>
+              <div class="info">
+                <h2>Ostrich<br><span>
+                    "Juicy-protein"</span></h2>
+                <p>
+
+
+                  "Ostrich: Experience the exotic allure of our lean and flavorful meat, perfect for grilling,
+                  roasting, or stir-frying. With its tender texture and rich taste, it adds a unique twist to any
+                  dish, making it a favorite for adventurous foodies. Elevate your culinary adventures with the
+                  irresistible flavor of our premium ostrich meat today!"
+                </p>
+
+                <span class="price">Rs. 65<sub>per kg</sub></span>
+
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </tr>
+  </table>
+
+
+  <table class="table-2">
+    <tr>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/nonveg/pheasant.png" alt="Pheasant">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Pheasant</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 2699</span> <sub style="font-size: 12px;">per
+                  kg</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">no offer available
+                  <span class="first-purchase-discount"></span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Lean, flavorful pheasant: perfect for roasting, grilling, or braising, adding a unique touch to
+                    your dishes with its distinctive taste.""</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/pheasant.png" alt="pheasant">
+              </div>
+              <div class="info">
+                <h2>Pheasant<br><span>"
+                    "Exquisite, lean, flavorful!""</span></h2>
+                <p>
+                  "Pheasant: Embark on a culinary journey with our exquisite, lean bird. Perfect for roasting,
+                  grilling, or braising, its unique flavor profile adds sophistication to any dish, ensuring a
+                  memorable dining experience. Elevate your meals with the distinctive taste of our premium pheasant,
+                  and indulge in the luxury of gourmet cuisine at home."
+
+
+
+
+
+                </p>
+                <span class="price">Rs. 2699<sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon" style="background: rgb(231, 54, 31);">Out Of Stock-- -</div>
+            </div>
+            <div class="image">
+              <img src="/image/nonveg/guinea foul.png" alt="Guinea foul">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;</div>
+              <h3 class="Product-Name">Guinea Foul</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)"><s>Rs 1499</s></span> <sub
+                  style="font-size: 12px;">per kg</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">Available
+                  <span class="first-purchase-discount">SOON</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Exotic, lean, flavorful! Ideal for roasting, grilling, or braising, adding a unique touch to your
+                    culinary creations."
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/guinea foul.png" alt="Guinea Foul">
+              </div>
+              <div class="info">
+                <h2>Guinea Foul<br><span>
+                    "Distinctive, flavorful!"</span></h2>
+                <p>
+
+                  "Guinea fowl: Discover the exotic allure of our lean, flavorful bird. Perfect for roasting,
+                  grilling, or braising, it adds a distinctive touch to any dish, elevating your culinary creations to
+                  new heights of flavor and sophistication. Indulge in the unique taste of our premium guinea fowl and
+                  experience gourmet dining at its finest."
+                </p>
+                <span class="price">Rs. 1499 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="#" class="add-cart-btn"
+                    style=" color: white; text-decoration: none; margin: 10px auto;
+                    padding: 10px 50px; border-radius: 5px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);border-radius: 20px;"
+                    onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='green';">
+                    Buy Now
+                  </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/nonveg/goose.png" alt="Goose">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Goose</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 1250 </span> <sub style="font-size: 12px;">per
+                    kg</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">First Purchase
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Rich, flavorful, succulent! Ideal for roasting, grilling, or braising, adding a touch of luxury
+                    to your culinary repertoire."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/goose.png" alt="Goose">
+              </div>
+              <div class="info">
+                <h2>Goose<br><span>
+                    "Rich, succulent, flavorful!"</span></h2>
+                <p>
+
+                  "Goose: Indulge in the rich, succulent flavor of our premium bird. Perfect for roasting, grilling,
+                  or braising, it adds a touch of luxury to any meal. Elevate your dining experience with the
+                  irresistible taste of our top-quality goose, and savor the deliciousness of gourmet cuisine right at
+                  home."</p>
+                <span class="price">RS 1250 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/nonveg/pigeon.png" alt="Pigeon">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Pigeon</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 299</span> <sub style="font-size: 12px;">per
+                  kg</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">First purchase :
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+                    "Delicate, tender, flavorful! Perfect for roasting, grilling, or braising, offering a gourmet
+                    experience with its exquisite taste and texture."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/pigeon.png" alt="Pigeon">
+              </div>
+              <div class="info">
+                <h2>Pigeon<br><span>Full of vitamins</span></h2>
+                <p>
+
+                  "Pigeon: Delight in the delicate and tender flavors of our premium bird. Whether roasted, grilled,
+                  or braised, it promises a gourmet experience with its exquisite taste and texture. Elevate your
+                  culinary endeavors with the richness of our top-quality pigeon, and savor the deliciousness of fine
+                  dining in the comfort of your home."</p>
+                <span class="price">Rs. 299 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+    </tr>
+  </table>
+
+  <table class="table-2">
+    <tr>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">
+                Top
+                Selling--</div>
+            </div>
+
+            <div class="image">
+              <img src="/image/nonveg/mutton.png" alt="Mutton">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Mutton</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)"><sub
+                    style="  position: absolute;top: 280px; left: 40px; font-size:12px "><s><B>1620</B></s></sub>Rs.
+                  1599</span>
+                <sub style="font-size: 12px;">per
+                  kg</sub>
+              </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">no offer available
+                  <span class="first-purchase-discount"></span>
+                </p>
+                <div class="Description">
+                  <p>
+
+                    "Rich, succulent, flavorful! Perfect for slow cooking, grilling, or stewing, delivering a hearty
+                    and delicious dining experience."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/mutton.png" alt="Mutton">
+              </div>
+              <div class="info">
+                <h2>Mutton<br><span>
+
+                    "Hearty, succulent, flavorful!"</span></h2>
+                <p>
+
+
+                  "Mutton: Dive into the rich, succulent flavors of our premium meat. Whether slow-cooked, grilled, or
+                  stewed, it promises a hearty and delicious dining experience. Elevate your meals with the robust
+                  taste of our top-quality mutton, and savor the satisfaction of savory goodness in every bite."</p>
+                <span class="price">Rs. 1599<sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">
+                Top
+                Selling--</div>
+            </div>
+            <div class="image">
+              <img src="/image/nonveg/pork.png" alt="Pork">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;</div>
+              <h3 class="Product-Name">Pork</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)"><s style="color:black">Rs. 350 </s> Rs. 300</span>
+                <sub style="font-size: 12px;">per kg</sub>
+              </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">Buy 8kg and get 1kg
+                  <span class="first-purchase-discount">FREE</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Juicy, flavorful, versatile! Perfect for grilling, roasting, or braising, delivering
+                    deliciousness in every bite for a memorable dining experience."
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/pork.png" alt="Pork">
+              </div>
+              <div class="info">
+                <h2>Pork<br><span>
+
+                    "Juicy, flavorful, versatile!"</span></h2>
+                <p>
+
+
+                  "Pork: Indulge in the juicy, flavorful goodness of our premium meat. Whether grilled, roasted, or
+                  braised, it promises a versatile and satisfying dining experience. Elevate your dishes with the rich
+                  taste of our top-quality pork, and enjoy the deliciousness of every bite in your favorite recipes."
+                </p>
+                <span class="price">Rs. 300 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/nonveg/buff.png" alt="Buff">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Buff</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 750 </span> <sub style="font-size: 12px;">per
+                    kg</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">First Purchase
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Tender, flavorful, lean! Perfect for grilling, roasting, or stir-frying, offering a delicious and
+                    nutritious option for your meals."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/buff.png" alt="Buff">
+              </div>
+              <div class="info">
+                <h2>buff<br><span>
+
+                    "Tender, flavorful, lean!"</span></h2>
+                <p>
+
+                  "Buff meat: Experience the tender, flavorful delight of our premium meat. Whether grilled, roasted,
+                  or stir-fried, it offers a lean and nutritious option for your meals. With its versatile nature, it
+                  enhances a variety of dishes, from hearty stews to succulent steaks. Elevate your cooking with the
+                  rich taste and quality of our top-grade buff meat today!"</p>
+                <span class="price">RS 750 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            >
+            <div class="image">
+              <img src="/image/nonveg/lamb.png" alt="Lamb">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Lamb</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 1499</span> <sub style="font-size: 12px;">per
+                  kg</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">First purchase :
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+                    "Tender, succulent, flavorful! Perfect for grilling, roasting, or braising, adding richness and
+                    depth to your culinary creations."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/lamb.png" alt="Lamb">
+              </div>
+              <div class="info">
+                <h2>Lamb<br><span>
+                    "Succulent, distinctive flavor."</span></h2>
+                <p>
+
+                  "Lamb: Indulge in succulent, flavorful meat, perfect for grilling, roasting, or braising, adding
+                  richness and depth to your culinary repertoire. Experience the unique taste of our premium lamb,
+                  elevating your dishes to new heights of deliciousness and satisfaction."</p>
+                <span class="price">Rs. 1499 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+    </tr>
+  </table>
+
+  <table class="table-3">
+    <tr>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/nonveg/Salmon.png" alt="Salmon">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Salmon </h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 950</span> <sub style="font-size: 12px;">per
+                  kg</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">no offer available
+                  <span class="first-purchase-discount"></span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Fresh, flavorful, versatile! Perfect for grilling, baking, or pan-searing, offering a healthy and
+                    delicious option for seafood lovers."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/Salmon.png" alt="Salmon">
+              </div>
+              <div class="info">
+                <h2>Salmon<br><span>
+
+                    "Fresh, flavorful, nutritious!"</span></h2>
+                <p>
+
+                  "Salmon fish: Dive into the ocean-fresh goodness of our premium seafood. Whether grilled, baked, or
+                  pan-seared, it offers a healthy and flavorful option for seafood enthusiasts. Packed with omega-3
+                  fatty acids and protein, it promotes heart health and supports a balanced diet. Elevate your meals
+                  with the exquisite taste and nutritional benefits of our top-quality salmon fish today!"</p>
+                <span class="price">Rs. 950<sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #fd0000 0%, #f71919 50%, #e3480f 100%);">Out Of
+                Stock-- -</div>
+            </div>
+            <div class="image">
+              <img src="/image/nonveg/catfish.png" alt="CatFish" style="height: 200px; width:250px">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;</div>
+              <h3 class="Product-Name">CatFish</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)"><s>RS. 501</s></span> <sub
+                  style="font-size: 12px;">per kg</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">Available
+                  <span class="first-purchase-discount">SOON</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Tender, flavorful, versatile! Perfect for frying, grilling, or baking, offering a delicious and
+                    satisfying option for seafood enthusiasts."
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/catfish.png" alt="CatFish">
+              </div>
+              <div class="info">
+                <h2>CatFish<br><span>
+                    "Tender, versatile, nutritious!"</span></h2>
+                <p>
+
+
+                  "Catfish: Dive into the tender, flavorful goodness of our premium seafood. Whether fried, grilled,
+                  or baked, it offers a versatile and satisfying option for seafood enthusiasts. Packed with protein
+                  and omega-3 fatty acids, it promotes heart health and adds deliciousness to your meals. Elevate your
+                  culinary creations with the exquisite taste of our top-quality catfish today!"
+
+                </p>
+                <span class="price">Rs. 501 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="#" class="add-cart-btn"
+                    style=" color: white; text-decoration: none; margin: 10px auto;
+                    padding: 10px 50px; border-radius: 5px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);border-radius: 20px;"
+                    onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='green';">
+                    Buy Now
+                  </a>
+
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+
+      <th>
+        <div class="product">
+
+          <div class="Box">
+            <div class="ribbon-wrap">
+              <div class="ribbon"
+                style="background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);">
+                Top
+                Selling--</div>
+            </div>
+            <div class="image">
+              <img src="/image/nonveg/gilt head.png" alt="Gilt head">
+            </div>
+            <div class="content-container-before">
+              <div class="transition">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;</div>
+                <h3 class="Product-Name">Gilt Head</h3>
+                <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 299 </span> <sub style="font-size: 12px;">per
+                    kg</sub> </p>
+              </div>
+              <div class="inner-content-container">
+                <p class="First-Purchase">First Purchase
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Gilt head: Delicate, flavorful, versatile! Perfect for grilling, baking, or pan-searing, offering
+                    a gourmet experience for seafood connoisseurs."</p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/gilt head.png" alt="Gilt head">
+              </div>
+              <div class="info">
+                <h2>Gilt Head<br><span>"Fresh & Healthy"</span></h2>
+                <p>
+
+                  "Gilt head: Indulge in the delicate, flavorful experience of our premium seafood. Whether grilled,
+                  baked, or pan-seared, it offers a gourmet delight for seafood connoisseurs. With its versatile
+                  nature, it adds sophistication to any dish, promising an unforgettable dining experience. Elevate
+                  your meals with the exquisite taste of our top-quality gilt head fish today!"</p>
+                <span class="price">RS 299 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+      <th>
+        <div class="product">
+
+          <div class="Box">
+
+            <div class="image">
+              <img src="/image/nonveg/trout.png" alt="Trout">
+            </div>
+            <div class="content-container-before">
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <h3 class="Product-Name">Trout</h3>
+              <p class="price"><span style="color:rgb(80, 117, 80)">Rs. 350</span> <sub style="font-size: 12px;">per
+                  kg</sub> </p>
+
+              <div class="inner-content-container">
+                <p class="First-Purchase">First purchase :
+                  <span class="first-purchase-discount">-5%</span>
+                </p>
+                <div class="Description">
+                  <p>
+
+
+                    "Trout: Fresh, flavorful, versatile! Perfect for grilling, baking, or pan-searing, offering a
+                    delicious option for seafood lovers."
+
+
+
+
+
+                  </p>
+                </div>
+                <div class="icons">
+                  <input type="number" min="1" max="99" value="1" style="width:30px; height:20px; margin-left:10px;">
+
+                  <img class="icon1" src="/icons/cart.ico" style="width:24px; height:24px;margin-right:2px; ">
+
+                  <a class="popup-btn"><img src="/icons/eye.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+                  <img class="icon3" src="/icons/heart.svg" style="width:24px; height:20px;margin-top: 6; ">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popup-view">
+            <div class="popup-card">
+              <a class="close-btn"><img src="/icons/Cross.svg" style="width:24px; height:24px;margin-top: 6px; "></a>
+              <div class="product-img">
+                <img src="/image/nonveg/trout.png" alt="Trout">
+              </div>
+              <div class="info">
+                <h2>Trout<br><span>
+
+                    "Fresh, aromatic, versatile!"</span></h2>
+                <p>
+
+
+                  "Trout: Dive into the fresh, flavorful goodness of our premium seafood. Whether grilled, baked, or
+                  pan-seared, it offers a versatile and satisfying option for seafood enthusiasts. Packed with protein
+                  and omega-3 fatty acids, it promotes heart health and adds a delicious touch to your meals. Elevate
+                  your culinary experience with the exquisite taste of our top-quality trout today!"</p>
+                <span class="price">Rs. 350 <sub>per kg</sub></span>
+                <label>
+                  <input type="number" min="1" max="99" value="1"
+                    style="width:30px; height:20px; margin-left:10px;border-radius: 10px;">
+                  <a href="/Code/html/login.html" class="add-cart-btn">Buy Now </a>
+                </label>
+                <div class="popup" onclick="togglePopup(this)">~ Add to Wishlist
+                  <span class="popuptext">Added ✅</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </th>
+    </tr>
+  </table>
+
+  <div class="SideCart">
+    <img src="/icons/cart png.png" style="height:38px;width:38px ">
+
+    <span class="notification-dot"></span> <!-- Notification dot -->
+  </div>
+
+  <div id="cartKoBox" class="cartKoBox"><span class="cart">CART</span>
+    <div class="itemDetails">
+      <p class="itemDetails1"></p>
+
+      <button id="closeButton" class="closeButton"><img src="/icons/Cross.svg" style="height:50px;width:20px;">
+      </button>
+
+      <p id="grandTotal">Total Price = Rs. 0.00</p>
+      </button>
+
+    </div>
+    <a href="/Code/html/login.html"> <button class="purchase">Purchase</button></a>
+
+
+  </div>
+
+
+
+  <footer>
+    <!--Footer content inside black background-->
+    <div class="footercontainer">
+      <div class="foot">
+        <div class="about">
+          <div class="Container wrap">
+            <div class="row">
+              <div class="column">
+                <div class="footer-widget about-widget">
+                  <h2 class="widget-title">About</h2>
+                  <p>GrocerEase is a place where you can have varities with freshness over
+                    grocery items. it is made by looking after customers opinions and needs &
+                    it's main motive is to provide FreshFare along with Customer Care.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Categories</h2>
+              <ul>
+                <li><a href="/Code/html/veg.html">Veg</a></li>
+                <li><a href="/Code/html/NonVeg.html">Nonveg</a></li>
+                <li><a href="/Code/html/Beverages.html">Beverages</a></li>
+                <li><a href="/Code/html/Dairy.html"></a>Dairy</li>
+                <li><a href="/Code/html/essentials.html"></a>Essentials</li>
+                <li><a href="/Code/html/Fruits.html"></a>Fruits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="information">
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Information</h2>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Return & Exchange</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-widget">
+            <h2 class="widget-title">Contact</h2>
+            <div class="contact-address">
+              Address: Itahari, Sunsari, Nepal.
+            </div>
+            <div class="contact-number">
+              Phone: +977 7835936120
+            </div>
+            <div class="contact-email">
+              Email: contact@grocerease.com
+            </div>
+          </div>
+          <div class="social-widget">
+            <h2 class="social-title">JoinUs</h2>
+            <div class="social">
+              <a href="#"><img class="fb" src="/icons/fb.png" alt=""></a>
+              <a href="#"><img class="insta" src="/icons/insta.png" alt=""></a>
+              <a href="#"><img class="twitt" src="/icons/twitt.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- div of date and time  -->
+      <div class="date" style="margin-left: 75%;position: absolute;margin-top: -2%;">
+        <div id="clock"></div>
+        <script>
+          function updateClock() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            // Add leading zeroes if needed
+            hours = (hours < 10 ? "0" : "") + hours;
+            minutes = (minutes < 10 ? "0" : "") + minutes;
+            seconds = (seconds < 10 ? "0" : "") + seconds;
+
+            var date = now.toDateString(); // Get the full date string
+            var timeString = hours + ":" + minutes + ":" + seconds + " " + date;
+            document.getElementById("clock").innerHTML = timeString;
+          }
+
+          // Update the clock every second
+          setInterval(updateClock, 1000);
+
+          // Initial call to display the clock immediately
+          updateClock();
+
+        </script>
+      </div>
+      <!-- end of div of date and time -->
+      <div class="copyright">
+        <p>Copyright © 2024 GrocerEase.
+          <script type="text/javascript">document.write(new Date().getFullYear());</script>
+          All rights reserved | Design made by Ease pvt.Ltd ...
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="/Code/js/main.js">  </script>
+
+</body>
+
+</html>

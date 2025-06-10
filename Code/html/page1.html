@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Code/css/blogcontent.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: #b4ceb973;
+        }
+
+        .container {
+            width: 100%;
+            margin-top: 5%;
+            margin-bottom: 50%;
+            position: absolute;
+            display: flex;
+            height: 100%;
+
+            flex-direction: row;
+        }
+
+        .image {
+            flex: 1;
+            margin-top: 70px;
+            /* Adjust margin-top in pixels */
+            margin-right: 50px;
+            /* Adjust left margin */
+        }
+
+        .image img {
+            width: 100%;
+            /* Ensure image fills its container */
+            border-radius: 10px;
+            /* Add border radius */
+            box-shadow: 0px 10px 10px #000000;
+            /* Add box shadow */
+        }
+
+        .content {
+            flex: 2;
+            padding: 20px;
+        }
+
+        .content-box {
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0px 10px 10px #000000;
+            padding: 20px;
+            background-color: white;
+            margin-bottom: 20px;
+            /* Add margin bottom */
+        }
+
+        .content h1 {
+            font-size: 28px;
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            align-items: center;
+            /* Adjust margin-bottom as needed */
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.5;
+            font-family: sans-serif;
+        }
+
+        .blog-title {
+            font-weight: bold;
+            font-style: italic;
+
+        }
+
+        .shop-button {
+            width: 170px;
+            height: 50px;
+            margin-left: 30%;
+            cursor: pointer;
+            font-size: 20px;
+
+            letter-spacing: 1.5px;
+            word-spacing: 5px;
+            background: green;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            font-family: cursive;
+            transition: 0.5s;
+        }
+
+        .shop-button a {
+            display: inline-block;
+
+            color: white;
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .shop-button:hover {
+            background: #1f5b39;
+            transform: scale(1.1);
+            transition: all .4s;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- heading & nav-bar start -->
+    <header>
+        <div id="navbar">
+            <nav class="navitems">
+
+                <a href="/Code/html/index.html" class="bar active">Home</a>
+                <a href="/Code/html/allProducts.html" class="bar">Products</a>
+                <a href="/Code/html/blog.html" class="bar">Blog</a>
+                <a href="#" class="bar">Research</a>
+                <a href="/Code/html/Aboutus.html" class="bar">About us</a>
+            </nav>
+            <h2 class="log">Grocer <span style="color: #588552;">Ease</span></h2>
+            <img class="logo" src="/icons/logo (1).png" width="5%" alt=" GroceryEaseLogo">
+            <div class="search">
+                <form action="" class="frm1">
+                    <input type="search" class="srch" placeholder="Search GrocerEase "></input>
+
+                    <button class="button"><img id="btn1" src="/icons/search.png" alt=""></button>
+                </form>
+
+            </div>
+            <a href="/Code/html/login.html"><img class="user-img" src="/icons/user.png" alt=""></a>
+
+        </div>
+    </header>
+    <!-- Heading & nav-bar end -->
+    <div class="container">
+        <div class="image">
+            <img src="/image/blogimg/Image1.png" alt="GrocerEase Image">
+        </div>
+        <div class="content">
+            <div class="content-box">
+                <h1>At GrocerEase, we bridge the gap between the farm and your table,
+                    ensuring every bite tells a story of quality, care, and community.</h1>
+            </div><br>
+            <p><span class="blog-title">Welcome to our blog,</span> where we invite you on a journey from the farm to
+                your table. In this post, we'll
+                delve into the fascinating process of how our farm-fresh produce makes its way from the soil to your
+                plate. Join us as we explore the meticulous care, dedication, and sustainable practices that go into
+                growing and delivering the highest quality fruits and vegetables straight to you.<br><br>
+                Mrs. Kopila Baskota Luitel has been engaged with GrocerEase since July 2021. Upon joining as a farmer,
+                she commenced a lot from selling her harvest through GrocerEase website. Since then, she has experienced
+                significant benefits from the platform and expresses her appreciation.
+                By directly sourcing fresh vegetables, fruits, and produce from local farmers, the GrocerEase website
+                utilizes this platform to distribute these goods directly to households.
+                This initiative from GrocerEase represents a much-needed model for the Nepalese market, offering various
+                benefits. We have garnered praise and support from customers for this innovative approach.
+                Primarily, this model facilitates local farmers in finding a market for their produce. It is often
+                observed that fruits and vegetables imported from neighboring countries tend to dominate the market over
+                local and organic produce. This situation arises due to logistical and regulatory challenges, among
+                other factors, consequently, local farmers struggle to monetize their produce, adversely affecting their
+                livelihoods.
+                Here are other reasons why GrocerEase is one of the best online platforms for buying fresh vegetables,
+                fruits, bakeries, coffee, groceries, and more.
+                <span style="font-weight: bold;">First, we deliver fresh fruits and vegetables at your doorstep just at
+                    the click of a few buttons. Second, we guarantee the quality of the produce that we deliver. If you
+                    are not satisfied with the quality, we will replace your delivery. <a
+                        href="/Code/html/feedbackform.html"> You can contact here</a> Third, you can buy vegetables and
+                    fruits online for your households or buy bulk quantities for your businesses and the produce are
+                    available in many types including organic, local, and regular market fresh categories.</span>
+            </p>
+            <div class="shop-button">
+                <a href="/Code/html/product.html">Shop Now</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!--Footer content inside black background-->
+        <div class="footercontainer">
+            <div class="foot">
+                <div class="about">
+                    <div class="Container wrap">
+                        <div class="row">
+                            <div class="column">
+                                <div class="footer-widget about-widget">
+                                    <h2 class="widget-title">About</h2>
+                                    <p>GrocerEase is a place where you can have varities with freshness over
+                                        grocery items. it is made by looking after customers opinions and needs &
+                                        it's main motive is to provide FreshFare along with Customer Care.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <div class="column">
+                        <div class="footer-widget">
+                            <h2 class="widget-title">Categories</h2>
+                            <ul>
+                                <li><a href="/Code/html/veg.html">Veg</a></li>
+                                <li><a href="/Code/html/NonVeg.html">Nonveg</a></li>
+                                <li><a href="/Code/html/Beverages.html">Beverages</a></li>
+                                <li><a href="/Code/html/Dairy.html"></a>Dairy</li>
+                                <li><a href="/Code/html/essentials.html"></a>Essentials</li>
+                                <li><a href="/Code/html/Fruits.html"></a>Fruits</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="information">
+                    <div class="column">
+                        <div class="footer-widget">
+                            <h2 class="widget-title">Information</h2>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Return & Exchange</a></li>
+                                <li><a href="#">Delivery</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">Contact</h2>
+                        <div class="contact-address">
+                            Address: Itahari, Sunsari, Nepal.
+                        </div>
+                        <div class="contact-number">
+                            Phone: +977 7835936120
+                        </div>
+                        <div class="contact-email">
+                            Email: contact@grocerease.com
+                        </div>
+                    </div>
+                    <div class="social-widget">
+                        <h2 class="social-title">JoinUs</h2>
+                        <div class="social">
+                            <a href="#"><img class="fb" src="/icons/fb.png" alt=""></a>
+                            <a href="#"><img class="insta" src="/icons/insta.png" alt=""></a>
+                            <a href="#"><img class="twitt" src="/icons/twitt.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- div of date and time  -->
+            <div class="date" style="margin-left: 75%;position: absolute;margin-top: -2%;">
+                <script>
+                    document.write(new Date());
+                </script>
+            </div>
+            <!-- end of div of date and time -->
+            <div class="copyright">
+                <p>Copyright © 2024 GrocerEase.
+                    <script type="text/javascript">document.write(new Date().getFullYear());</script>
+                    All rights reserved | Design made by Ease pvt.Ltd ...
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

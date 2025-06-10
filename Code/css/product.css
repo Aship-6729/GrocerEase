@@ -1,0 +1,402 @@
+/* Styling for navigation items */
+.log{
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 8%;
+  color:rgb(0, 0, 0);
+}
+.logo{
+  margin-top: -5%;
+  margin-left: 3%;
+  position: absolute;
+}
+
+.search {
+  position: absolute;
+  margin-left: 74%;
+  margin-top: -4.5%;
+
+
+
+}
+
+form {
+  height: 10vh;
+}
+
+.srch {
+
+
+  margin-left: -14%;
+  background: #292828;
+  margin-top: 3%;
+  width: 250px;
+  color: #f9fcff;
+  font-size: 18px;
+  font-family: Arial;
+  padding: 3.2%;
+  border-color: #000000;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.button {
+  position: absolute;
+  margin-left: -1.5%;
+  margin-top: 3%;
+  background: #419172;
+  padding: 0.2%;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+
+
+#btn1 {
+  /* Set button dimensions */
+  padding: 3px;
+  width: 90%;
+
+}
+.user-img{
+  background-color: #dfdfdf;
+  border-radius: 15px;
+  margin-top: -3.5%;
+  margin-left: 96%;
+  position: absolute;
+}
+.user-img:hover {
+  background: #b1b1b1;
+  border-radius: 15px;
+
+}
+
+.user-img:active {
+  background-color: #7f7f7f;
+}
+
+
+
+
+.navitems {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: -4%;
+  justify-content: center;
+}
+
+
+#navbar {
+  width: 100%;
+  height: 10%;
+  background-color: #64aa8e36; 
+  margin-top: 0%;
+  box-shadow: 0px 10px 10px -10px #000000;
+  position: fixed;
+  backdrop-filter: brightness(40%) opacity(0.8);
+  z-index: 999;
+
+}
+
+.bar.active {
+  border-radius: 7px;
+}
+
+.bar.active:focus {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.bar {
+text-decoration: solid; /* Underline style */
+margin: 25px; /* Spacing around the bar */
+margin-bottom: 10px; /* Spacing at the bottom */
+color: rgb(255, 255, 255); /* Set text color */
+padding: 8px; /* Add padding inside the bar */
+font-size: 18px; /* Set font size */
+font-weight: 600; /* Set font weight */
+font-family: Verdana, Geneva, Tahoma, sans-serif; /* Set font family */
+}
+
+
+.bar:hover {
+
+  color: #e7e6e4;
+  font-weight: 900px;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 7px;
+  background: rgb(12, 12, 12);
+  padding: 8px;
+  transition: 0.2s;
+}
+
+/* While clicking */
+.bar:active {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+}
+
+.bar:focus {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* ---Heading & nav-bar end--- */
+
+/* Styling for home section */
+.home {
+  display: flex; /* Flexbox display */
+  margin-top: 0px; /* Adjust top margin */
+  height: 800px; /* Set height */
+
+  background: linear-gradient(to top, #d2d8d5 20%, #84c7a2); /* Gradient background */
+  position: relative; /* Relative positioning */
+  overflow: hidden; /* Hide overflow */
+
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6); /* Add box shadow */
+}
+
+/* Styling for home section image */
+.home img {
+  position: absolute; /* Absolute positioning */
+  bottom: 0; /* Position from bottom */
+  margin-top: 10%; /* Adjust top margin */
+  width: 100%; /* Full width */
+  pointer-events: none; /* Disable pointer events */
+}
+
+/* Styling for home section title */
+.home .title {
+  position: absolute; /* Absolute positioning */
+  top: 50%; /* Position from top */
+  left: 50%; /* Position from left */
+  transform: translate(-50%, -50%); /* Center align horizontally and vertically */
+  color: white; /* Text color */
+  font-size: 80px; /* Set font size */
+
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25); /* Add text shadow */
+}
+
+/* Styling for about section */
+.about {
+  padding: 50px; /* Add padding */
+  color: rgb(191, 179, 179); /* Text color */
+  position: relative; /* Relative positioning */
+  z-index: 100; /* Set z-index */
+}
+
+/* Styling for about section heading */
+.about h1 {
+  font-size: 40px; /* Set font size */
+}
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for scrollbar in body */
+body::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar */
+}
+
+/* Styling for cards section */
+.cards {
+  width: 40%; /* Set width */
+  height: 400px; /* Set height */
+  display: flex; /* Flexbox display */
+  margin-right: 20%; /* Adjust right margin */
+  margin-bottom: 30%; /* Adjust bottom margin */
+  flex-direction: row; /* Set flex direction */
+  transition: all 0.6; /* Smooth transition */
+  z-index: 1; /* Set z-index to a lower value to ensure it's behind the navbar */
+  padding-top: 20px; /* Add top padding */
+}
+
+/* Styling for table */
+table {
+  margin-left: 30%; /* Adjust left margin */
+}
+
+/* Styling for images */
+.image {
+  margin-right: 60px; /* Adjust right margin */
+  cursor: pointer; /* Set cursor */
+  padding-left: 30px; /* Add left padding */
+  transition: all 0.6; /* Smooth transition */
+}
+
+/* Styling for image within cards */
+.cards .image img {
+  border-radius: 30px; /* Add border radius */
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.65); /* Add box shadow */
+  border-bottom: 2px solid white; /* Add bottom border */
+  margin-top: 20px; /* Adjust top margin */
+
+  transition: all 0.6; /* Smooth transition */
+  z-index: 1;
+  background-color: #ffffff; /* Background color */
+  width: 200px; /* Set width */
+  height: 200px; /* Set height */
+
+  transition: transform 0.6s ease, box-shadow 0.6s ease; /* Smooth transition */
+}
+
+/* Styling for image hover effect */
+.cards .image img:hover {
+  transform: scale(1.1); /* Scale on hover */
+  box-shadow: 1px 1px 15px rgba(11, 11, 11, 0.2); /* Add box shadow */
+  background-color: rgb(219, 199, 20); /* Change background color */
+
+  transition: all 0.6; /* Smooth transition */
+}
+
+
+/* Styling for card name */
+.card .name {
+  display: grid; /* Grid display */
+  padding-top: 15px; /* Add top padding */
+  padding-bottom: 30px; /* Add bottom padding */
+  font-size: 25px; /* Set font size */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; /* Set font family */
+  color: rgb(39, 43, 46); /* Text color */
+  text-shadow: 0 0.1px 50px rgb(255, 255, 255); /* Add text shadow */
+}
+
+/* Font face for custom font */
+@font-face {
+  font-family: hamro-font;
+  src: url(/fonts/airstrike/airstrike.ttf); /* Path to font file */
+}
+
+/* Styling for header */
+.header {
+  padding-left: 15%; /* Add left padding */
+  margin-top: 50px; /* Adjust top margin */
+  font-size: 30px; /* Set font size */
+  color: rgb(4, 5, 5); /* Text color */
+  text-shadow: 0 0 10px rgb(168, 169, 165); /* Add text shadow */
+  font-family: hamro-font3; /* Set font family */
+}
+
+/* Styling for card name within placement-of-text1 */
+
+/* Font face for custom font */
+@font-face {
+  font-family: hamro-font3;
+  src: url(/fonts/kosans-demo/Kosans\ DEMO.otf); /* Path to font file */
+}
+
+
+/* Styling for text alignment */
+.text-allignment {
+  color: rgb(50, 47, 47); /* Text color */
+  margin-right: 10%; /* Adjust right margin */
+  margin-top: 17%; /* Adjust top margin */
+  font-family: hamro-font; /* Set font family */
+  padding-left: 900px; /* Adjust left padding */
+  font-size: 25px; /* Set font size */
+  text-shadow: 0 0 5px rgb(245, 238, 238); /* Add text shadow */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 30px 0; /* Add padding */
+  margin-top: -150px; /* Adjust top margin */
+}
+
+/* Styling for footer content */
+.foot {
+  display: flex; /* Flexbox display */
+  justify-content: space-around; /* Space around items */
+  flex-wrap: wrap; /* Wrap items */
+  max-width: 1200px; /* Set max width */
+  margin: 0px auto; /* Center align horizontally */
+}
+
+/* Styling for footer widget */
+.footer-widget {
+  flex: 300px; /* Flex basis */
+  margin-bottom: 30px; /* Add bottom margin */
+  text-align: justify; /* Justify text */
+}
+
+/* Styling for about widget paragraph */
+.about-widget p {
+  text-align: justify; /* Justify text */
+}
+
+/* Styling for footer widget heading */
+.footer-widget h2 {
+  font-size: 1.5rem; /* Set font size */
+  margin-bottom: 15px; /* Add bottom margin */
+}
+
+/* Styling for footer widget list */
+.footer-widget ul {
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for footer widget list item */
+.footer-widget ul li {
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Styling for footer widget list item link */
+.footer-widget ul li a {
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline */
+  margin-left: -1%; /* Adjust left margin */
+}
+
+/* Styling for widget title */
+.widget-title {
+  margin-left: -10%; /* Adjust left margin */
+}
+
+/* Styling for contact address, number, and email */
+.contact-address,
+.contact-number,
+.contact-email {
+  margin-bottom: 10px; /* Add bottom margin */
+  margin-left: -6%; /* Adjust left margin */
+}
+
+/* Styling for social title */
+.social-title {
+  margin-left: 165%; /* Adjust left margin */
+  margin-top: -125%; /* Adjust top margin */
+}
+
+/* Styling for social widget */
+.social-widget {
+  margin-top: 20%; /* Adjust top margin */
+  margin-left: 40%; /* Adjust left margin */
+}
+
+/* Styling for social icons */
+.social {
+  margin-left: 180%; /* Adjust left margin */
+  margin-top: 10%; /* Adjust top margin */
+}
+
+/* Styling for copyright section */
+.copyright {
+  background-color: #000000; /* Background color */
+  padding: 20px; /* Add padding */
+}
+
+/* Styling for copyright text */
+.copyright p {
+  margin-left: 35%; /* Adjust left margin */
+}

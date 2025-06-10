@@ -1,0 +1,250 @@
+    
+/* Styling for navigation items */
+.log{
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 8%;
+  color:rgb(0, 0, 0);
+}
+.logo{
+  margin-top: -5%;
+  margin-left: 3%;
+  position: absolute;
+}
+
+.search {
+  position: absolute;
+  margin-left: 74%;
+  margin-top: -4.5%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+form {
+  height: 10vh;
+}
+
+.srch {
+
+
+  margin-left: -14%;
+  background: #292828;
+  margin-top: 3%;
+  width: 250px;
+  color: #f9fcff;
+  font-size: 18px;
+  font-family: Arial;
+  padding: 3.2%;
+  border-color: #000000;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.button {
+  position: absolute;
+  margin-left: -1.5%;
+  margin-top: 3%;
+  background: #419172;
+  padding: 0.2%;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+
+
+#btn1 {
+  /* Set button dimensions */
+  padding: 3px;
+  width: 90%;
+
+}
+.user-img{
+  background-color: #dfdfdf;
+  border-radius: 15px;
+  margin-top: -3.5%;
+  margin-left: 96%;
+  position: absolute;
+}
+.user-img:hover {
+  background: #b1b1b1;
+  border-radius: 15px;
+
+}
+
+.user-img:active {
+  background-color: #7f7f7f;
+}
+
+
+
+
+.navitems {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: -4%;
+  justify-content: center;
+}
+
+
+#navbar {
+  width: 100%;
+  height: 10%;
+  background-color: #64aa8e36; 
+
+  box-shadow: 0px 10px 10px -10px #000000;
+  position: fixed;
+  backdrop-filter: brightness(40%) opacity(0.8);
+  z-index: 999;
+
+}
+
+.bar.active {
+  border-radius: 7px;
+}
+
+.bar.active:focus {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.bar {
+text-decoration: solid; /* Underline style */
+margin: 25px; /* Spacing around the bar */
+margin-bottom: 10px; /* Spacing at the bottom */
+color: rgb(255, 255, 255); /* Set text color */
+padding: 8px; /* Add padding inside the bar */
+font-size: 18px; /* Set font size */
+font-weight: 600; /* Set font weight */
+font-family: Verdana, Geneva, Tahoma, sans-serif; /* Set font family */
+}
+
+
+.bar:hover {
+
+  color: #e7e6e4;
+  font-weight: 900px;
+  border-bottom: 2px solid #ffffff;
+  border-radius: 7px;
+  background: rgb(12, 12, 12);
+  padding: 8px;
+  transition: 0.2s;
+}
+
+/* While clicking */
+.bar:active {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+}
+
+.bar:focus {
+  color: rgb(0, 0, 0);
+  background: hsl(40, 90%, 60%);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* ---Heading & nav-bar end--- */
+
+
+/* Footer Styles */
+footer {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 30px 0; /* Add padding */
+  position:absolute;
+  width:100%;
+  margin-top:900px; /* Set top margin */
+}
+
+/* Styling for footer content */
+.foot {
+  display: flex; /* Use flexbox */
+  justify-content: space-around; /* Space around items */
+  flex-wrap: wrap; /* Wrap items */
+  max-width: 1200px; /* Set max width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Styling for footer widget */
+.footer-widget {
+  flex: 300px; /* Set flex basis */
+  margin-bottom: 30px; /* Add bottom margin */
+  text-align: justify; /* Justify text */
+}
+
+/* Styling for about widget paragraph */
+.about-widget p {
+  text-align: justify; /* Justify text */
+}
+
+/* Styling for footer widget title */
+.footer-widget h2 {
+  font-size: 1.5rem; /* Set font size */
+  margin-bottom: 15px; /* Add bottom margin */
+}
+
+/* Styling for footer widget list */
+.footer-widget ul {
+  padding: 0; /* Reset padding */
+}
+
+/* Styling for footer widget list items */
+.footer-widget ul li {
+  margin-bottom: 10px; /* Add bottom margin */
+}
+
+/* Styling for footer widget list item links */
+.footer-widget ul li a {
+  color: #fff; /* Set text color */
+  text-decoration: none; /* Remove underline */
+  margin-left: -1%; /* Adjust left margin */
+}
+
+/* Styling for widget title */
+.widget-title {
+  margin-left: -10%; /* Adjust left margin */
+}
+
+/* Styling for contact address, number, and email */
+.contact-address,
+.contact-number,
+.contact-email {
+  margin-bottom: 10px; /* Add bottom margin */
+  margin-left: -6%; /* Adjust left margin */
+}
+
+/* Styling for social widget title */
+.social-title {
+  margin-left: 165%; /* Adjust left margin */
+  margin-top: -125%; /* Adjust top margin */
+}
+
+/* Styling for social widget */
+.social-widget {
+  margin-top: 20%; /* Set top margin */
+  margin-left: 40%; /* Set left margin */
+}
+
+/* Styling for social links */
+.social {
+  margin-left: 180%; /* Adjust left margin */
+  margin-top: 10%; /* Set top margin */
+}
+
+/* Styling for copyright */
+.copyright {
+  background-color: #000000; /* Background color */
+  padding: 20px; /* Add padding */
+}
+
+/* Styling for copyright paragraph */
+.copyright p {
+  margin-left: 35%; /* Adjust left margin */
+}
+

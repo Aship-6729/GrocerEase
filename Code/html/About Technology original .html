@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="/Code/css/blogcontent.css">
+  <style>
+    body {
+
+      background-color: #b4ceb973;
+    }
+
+    #blog {
+      padding: 90px 150px 0 150px;
+      margin-bottom: -50%;
+    }
+
+    #blog .blog-box {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      position: relative;
+      padding-bottom: 90px;
+    }
+
+    #blog .blog-img {
+      width: 50%;
+      margin-right: 40px;
+    }
+
+    #blog img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    #blog .blog-details {
+      width: 50%;
+      /* Adjusted to 50% width */
+      height: 50%;
+      margin-left: 10px;
+      background: rgb(146, 173, 146);
+      padding: 20px 5px;
+      right: 18px;
+      border-radius: 30px;
+    }
+
+    .blog-details h4 {
+      font-size: 25px;
+      line-height: 20px;
+      padding-left: 10%;
+      margin-bottom: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .blog-details p {
+      font-family: cursive;
+      padding-left: 10%;
+      font-size: 15px;
+    }
+
+    .blog-image {
+      flex: 0 0 50%;
+    }
+
+    .blog-details {
+      flex: 0 0 50%;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div id="navbar">
+      <nav class="navitems">
+
+        <a href="/Code/html/index.html" class="bar active">Home</a>
+        <a href="/Code/html/allProducts.html" class="bar">Products</a>
+        <a href="/Code/html/blog.html" class="bar">Blog</a>
+        <a href="#" class="bar">Research</a>
+        <a href="/Code/html/Aboutus.html" class="bar">About us</a>
+      </nav>
+      <h2 class="log">Grocer <span style="color: #588552;">Ease</span></h2>
+      <img class="logo" src="/icons/logo (1).png" width="5%" alt=" GroceryEaseLogo">
+      <div class="search">
+        <form action="" class="frm1">
+          <input type="search" class="srch" placeholder="Search GrocerEase "></input>
+
+          <button class="button"><img id="btn1" src="/icons/search.png" alt=""></button>
+        </form>
+
+      </div>
+      <a href="/Code/html/login.html"><img class="user-img" src="/icons/user.png" alt=""></a>
+
+    </div>
+  </header>
+
+  <!---Blogs section-->
+  <section id="blog">
+    <div class="blog-box">
+      <div class="blog-image">
+        <img src="/image/blogimg/html.png" alt="" style="height:auto; width:300px">
+      </div>
+      <div class="blog-details">
+        <h4>HTML</h4>
+        <p>
+          HTML, the Hypertext Markup Language, was developed by Tim Berners-Lee, a British computer scientist and the
+          inventor of the World Wide Web.
+          HTML, the standard markup language for web documents, shapes the content and structure of web content and is
+          often complemented by technologies like Cascading Style Sheets (CSS) and scripting languages such as
+          JavaScript which facilitate the creation of visually appealing and dynamic web pages across diverse platforms
+          and devices. As the backbone of the internet, HTML continues to evolve, accommodating emerging technologies
+          and standards while remaining essential to the creation and distribution of online content.
+        </p>
+      </div>
+    </div>
+    <div class="blog-box">
+      <div class="blog-image">
+        <img src="/image/blogimg/css.png" alt="" style="height:auto; width:200px; margin-left:10%">
+      </div>
+      <div class="blog-details">
+        <h4>CSS</h4>
+        <p>
+          CSS, also known as Cascading Style Sheets, acts as the fashion stylist for the internet realm. It's what gives
+          webpages their style and appearance, deciding things like colors, fonts, and spacing. By separating style from
+          content, CSS keeps web code clean and easy to manage. It works by selecting elements on a webpage and applying
+          rules to make them look a certain way. You can use CSS directly in HTML tags, or keep it separate in a style
+          sheet file. With CSS, websites can look good on all sorts of devices, from phones to computers, making it an
+          essential tool for web designers everywhere.
+
+        </p>
+      </div>
+    </div>
+
+    <div class="blog-box">
+      <div class="blog-image">
+        <img src="/image/blogimg/javascript.png" alt="" style="height:auto; width:400px;margin-left:-6%">
+      </div>
+      <div class="blog-details">
+        <h4>JavaScript</h4>
+        <p>
+          JavaScript is a dynamic programming language commonly used for web development.. It's a dynamic programming
+          language that brings webpages to life by adding interactive features and functionalities. Unlike HTML and CSS,
+          which handle the structure and appearance of a webpage, JavaScript focuses on making things happen, like
+          responding to user clicks, updating content without refreshing the page, and much more. It works seamlessly
+          with HTML and CSS, complementing them to create engaging and interactive web experiences. Whether it's
+          animating elements, validating forms, or fetching data from servers, JavaScript is the go-to tool for making
+          websites more dynamic and user-friendly.Positive impact
+
+        </p>
+      </div>
+    </div>
+
+    <div class="blog-box">
+      <div class="blog-image">
+        <img src="/image/blogimg/vs code.png" alt="" style="height:auto; width:300px">
+      </div>
+      <div class="blog-details">
+        <h4>VSCode</h4>
+        <p>
+          Vs code visual Studio Code (VSCode), developed by Microsoft, has rapidly become a leading source-code editor
+          since its launch in 2015. Its popularity stems from its lightweight design, customizable features, and
+          powerful capabilities. Utilizing Electron, it offers a familiar coding environment built on web technologies
+          like HTML, CSS, and JavaScript. Notably, VSCode provides robust language support with IntelliSense for code
+          completion and syntax highlighting. Its vast extension library enables users to tailor their experience,
+          integrating with tools for debugging, testing, and version control seamlessly. With an integrated terminal for
+          command execution and a built-in debugger, developers can efficiently manage projects within a single
+          interface. VSCode's integration with Git simplifies collaboration, making it a top choice for coding projects
+          across various domains and scales.
+
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <!--Footer content inside black background-->
+    <div class="footercontainer">
+      <div class="foot">
+        <div class="about">
+          <div class="Container wrap">
+            <div class="row">
+              <div class="column">
+                <div class="footer-widget about-widget">
+                  <h2 class="widget-title">About</h2>
+                  <p>GrocerEase is a place where you can have varities with freshness over
+                    grocery items. it is made by looking after customers opinions and needs &
+                    it's main motive is to provide FreshFare along with Customer Care.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Categories</h2>
+              <ul>
+                <li><a href="/Code/html/veg.html">Veg</a></li>
+                <li><a href="/Code/html/NonVeg.html">Nonveg</a></li>
+                <li><a href="/Code/html/Beverages.html">Beverages</a></li>
+                <li><a href="/Code/html/Dairy.html"></a>Dairy</li>
+                <li><a href="/Code/html/essentials.html"></a>Essentials</li>
+                <li><a href="/Code/html/Fruits.html"></a>Fruits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="information">
+          <div class="column">
+            <div class="footer-widget">
+              <h2 class="widget-title">Information</h2>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Return & Exchange</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-widget">
+            <h2 class="widget-title">Contact</h2>
+            <div class="contact-address">
+              Address: Itahari, Sunsari, Nepal.
+            </div>
+            <div class="contact-number">
+              Phone: +977 7835936120
+            </div>
+            <div class="contact-email">
+              Email: contact@grocerease.com
+            </div>
+          </div>
+          <div class="social-widget">
+            <h2 class="social-title">JoinUs</h2>
+            <div class="social">
+              <a href="#"><img class="fb" src="/icons/fb.png" alt=""></a>
+              <a href="#"><img class="insta" src="/icons/insta.png" alt=""></a>
+              <a href="#"><img class="twitt" src="/icons/twitt.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- div of date and time  -->
+      <div class="date" style="margin-left: 75%;position: absolute;margin-top: -2%;">
+        <script>
+          document.write(new Date());
+        </script>
+      </div>
+      <!-- end of div of date and time -->
+      <div class="copyright">
+        <p>Copyright © 2024 GrocerEase.
+          <script type="text/javascript">document.write(new Date().getFullYear());</script>
+          All rights reserved | Design made by Ease pvt.Ltd ...
+        </p>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
