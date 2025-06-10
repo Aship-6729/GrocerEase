@@ -35,6 +35,6 @@ website/
 
 - Large image and video files are ignored in version control via `.gitignore`.
 - All styles are in `Code/css/indexstyle.css`.
-- JavaScript functionality is in `Code/js/indexScript.js`.
+- JavaScript functionality is in `Code/js/indexScript.js` and some of the scripts are included with in a `/.html` files.
 
 ---
